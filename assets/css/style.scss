@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "{{ site.theme }}";
+.alert {
+    background: #ddd;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.note {
+    background: #f0fff0;
+    border-color: green;
+}
+.tip {
+    background: #d5e7ff;
+    border-color: blue;
+}
+
