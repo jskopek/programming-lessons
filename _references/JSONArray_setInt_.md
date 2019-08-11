@@ -1,0 +1,15 @@
+---
+layout: reference
+title: setInt()
+code: JSONArray_setInt_.pde
+---
+
+# Description
+
+Inserts a new value into the JSONArray at the specified index position. If a value already exists in the specified position, the new value overwrites the old value. If the given index is greater than the length of the JSONArray, then null elements will be added as necessary to pad it out.
+
+# Related
+
+setFloat()
+setString()
+setBoolean()

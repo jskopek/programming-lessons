@@ -24,3 +24,10 @@ layout: default
 </div>
 {%- endfor -%}
 
+<h1>Reference</h1>
+{%- for reference in site.references -%}
+<div>
+    <a href="{{ reference.url }}">{{ reference.title }}</a>
+</div>
+{%- endfor -%}
+

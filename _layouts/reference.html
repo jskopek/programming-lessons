@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+{% if page.code %}
+<h1>Example</h1>
+
+<script src="/assets/js/processing.js"></script>
+<canvas data-processing-sources="{{ page.code }}"></canvas>
+
+{% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
+<pre>{{ source_code | xml_escape }}</pre>
+{% endif %}
