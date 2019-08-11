@@ -25,3 +25,18 @@ You should see a new window with a circle in it:
 ![Processing Content](/assets/images/lesson2-3.png)
 
 <i class="fas fa-graduation-cap"></i> *Congratulations!* You just wrote your first program.
+
+<script src="/assets/js/processing.js"></script>
+<canvas data-processing-sources="lessson1-1.pde"></canvas>
+
+<pre>
+{% capture my_include %}{% include_relative lessson1-1.pde %}{% endcapture %}
+    {{ my_include | xml_escape }}
+</pre>
+
+<canvas data-processing-sources="lesson2-2.pde"></canvas>
+
+<pre>
+{% capture my_include %}{% include_relative lesson2-2.pde %}{% endcapture %}
+    {{ my_include | xml_escape }}
+</pre>
