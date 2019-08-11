@@ -1,6 +1,7 @@
 ---
-layout: post
-title:  "Lesson 2: Drawing a circle"
+layout: lesson
+title:  "Drawing a circle"
+lesson_number: 2
 ---
 
 Let's write our first program! Type the line below into the Processing text editor:

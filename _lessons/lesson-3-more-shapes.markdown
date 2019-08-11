@@ -1,6 +1,7 @@
 ---
-layout: post
-title:  "Lesson 3: Drawing more shapes"
+layout: lesson
+title:  "Drawing more shapes"
+lesson_number: 3
 ---
 
 We just drew a circle, but there are so many other types of shapes we can draw!

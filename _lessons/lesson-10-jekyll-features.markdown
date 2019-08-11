@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: lesson
 title:  "Jekyll features"
+lesson_number: 4
 ---
 
 Jekyll also offers powerful support for code snippets:

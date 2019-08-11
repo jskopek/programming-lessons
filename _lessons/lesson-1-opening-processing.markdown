@@ -1,6 +1,7 @@
 ---
-layout: post
-title:  "Lesson 1: Opening Processing"
+layout: lesson
+title:  "Opening Processing"
+lesson_number: 1
 ---
 
 We will be using a program called "Processing" to write our programs. Before we can write anything, we need to open this program.

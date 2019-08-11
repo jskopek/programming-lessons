@@ -6,9 +6,10 @@ layout: default
 ---
 
 <h1>Lessons</h1>
-{%- for lesson in site.lessons -%}
+{% assign ordered_pages = site.lessons | sort:"lesson_number" %}
+{%- for lesson in ordered_pages -%}
 <div>
-    <a href="{{lesson.url }}">{{ lesson.title }}</a>
+    <a href="{{lesson.url }}">Lesson {{ lesson.lesson_number }}: {{ lesson.title }}</a>
 </div>
 {%- endfor -%}
 
