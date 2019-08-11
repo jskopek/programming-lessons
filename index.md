@@ -14,7 +14,7 @@ layout: default
 {%- endfor -%}
 
 <div>
-<a href="/print">View one-page version of all lessons</a>
+<a href="/lessons/print">View one-page version of all lessons</a>
 </div>
 
 <h1>Examples</h1>

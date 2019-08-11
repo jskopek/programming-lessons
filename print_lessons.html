@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /lessons/print
+---
+
+<div>
+    {% assign ordered_lessons = site.lessons | sort:"lesson_number" %}
+    {%- for lesson in ordered_lessons -%}
+    <div>
+
+      <h2>Lesson <strong>{{ lesson.lesson_number }}</strong></h2>
+      <h1>{{ lesson.title }}</h1>
+      {{ lesson.content }}
+
+    </div>
+    {%- endfor -%}
+</div>
