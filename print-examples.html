@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /examples/print
+---
+
+<script src="/assets/js/processing.js"></script>
+
+
+<h1>Examples</h1>
+<div>
+    {%- for example in site.examples -%}
+    <div>
+        <h1>{{ example.title }}</h1>
+        {% if example.code %}
+        <canvas data-processing-sources="{{ example.code }}"></canvas>
+        {% endif %}
+
+        {% if example.content %}
+        <div>{{ example.content }}</div>
+        {% endif %}
+
+        {% if example.code %}
+        {% assign code_url = example.code|prepend:'_examples/' %}
+        {% capture source_code %}{% include_relative {{ code_url }} %}{% endcapture %}
+        <pre>{{ source_code | xml_escape }}</pre>
+        {% endif %}
+    </div>
+    {%- endfor -%}
+
+</div>
+
+
