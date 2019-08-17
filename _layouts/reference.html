@@ -8,7 +8,6 @@ layout: default
 {% if page.code %}
 <h1>Example</h1>
 
-<script src="/assets/js/processing.js"></script>
 <canvas data-processing-sources="{{ page.code }}"></canvas>
 
 {% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}

@@ -1,0 +1,16 @@
+<div class="d-flex align-items-center mb-3">
+    <div class="flex-grow-1 mr-4">
+        <h5>Code:</h5>
+        {% if include.code %}
+        {% assign code_url = include.code %}
+        {% capture source_code %}{% include_relative {{ code_url }} %}{% endcapture %}
+        <pre>{{ source_code | xml_escape }}</pre>
+        {% endif %}
+    </div>
+
+    <div>
+        <h5>Preview:</h5>
+        <canvas data-processing-sources="{{ include.code }}"></canvas>
+    </div>
+</div>
+

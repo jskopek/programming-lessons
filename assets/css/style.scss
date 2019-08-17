@@ -9,13 +9,24 @@
     border-radius: 5px;
     padding: 1em;
     margin-bottom: 1em;
+    &.note {
+        background: #f0fff0;
+        border-color: green;
+    }
+    &.tip {
+        background: #d5e7ff;
+        border-color: blue;
+    }
+    &.next-lesson {
+        background: #a61717;
+        border-color: #a61717;
+        color: #fff;
+        padding: 2em 1em;
+        margin-top: 2em;
+    }
 }
-.note {
-    background: #f0fff0;
-    border-color: green;
-}
-.tip {
-    background: #d5e7ff;
-    border-color: blue;
+
+a.alert {
+    display: block;
 }
 
