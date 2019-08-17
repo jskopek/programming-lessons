@@ -20,11 +20,12 @@ lesson_number: 9
 {% include snippet-multiline.html code="lesson4-5.pde" %}
 
 # Make a shape black, grey, and white
-{% include snippet-multiline.html code="color-1.pde" %}
+{% include snippet-multiline.html code="black-white-1.pde" %}
+{% include snippet-multiline.html code="black-white-2.pde" %}
 
 # Make a shape different colors
+{% include snippet-multiline.html code="color-1.pde" %}
 {% include snippet-multiline.html code="color-2.pde" %}
-{% include snippet-multiline.html code="color-3.pde" %}
 
 # Ordering is important
 {% include snippet.html code="order-1.pde" %}
