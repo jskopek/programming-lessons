@@ -19,3 +19,10 @@ When we create a variable, we pick a name. The name can be anything we want, but
 <pre>int color = 255;
 int myFavoriteColor = 255;
 
+{% include snippet.html code="variable-1.pde" %}
+{% include snippet.html code="variable-2.pde" %}
+{% include snippet.html code="variable-3.pde" %}
+{% include snippet.html code="variable-4.pde" %}
+{% include snippet.html code="variable-5.pde" %}
+
+
