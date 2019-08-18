@@ -1,0 +1,5 @@
+{% if include.code %}
+{% assign code_url = include.code|prepend:'_lessons/' %}
+{% capture source_code %}{% include_relative {{ code_url }} %}{% endcapture %}
+<pre>{{ source_code | xml_escape }}</pre>
+{% endif %}
