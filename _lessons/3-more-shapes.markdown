@@ -6,16 +6,19 @@ lesson_number: 3
 
 We just drew a circle, but there are so many other types of shapes we can draw!
 
+## Rectangles and Squares 
 Let's make a square! Press the 'Backspace' key until all of your code is removed, and then thype the line below:
 
 {% include snippet-multiline.html code="more-shapes-1.pde" %}
 
 This program looks a lot like our first program, but we replaced the ```ellipse``` *function* with the ```rect``` *function*. We have now told the computer we want to draw a rectangle instead of a circle.
 
+## Lines
 Let's try a different function! Replace the ```rect``` function with ```line```. Your program should look like this:
 
 {% include snippet-multiline.html code="more-shapes-2.pde" %}
 
+## Triangles
 Let's try drawing a triangle! Press the 'Enter' key, then type the line below:
 
 {% include code.html code="triangle(50,50,20,90,80,90);" %}
@@ -26,8 +29,9 @@ Your program should look like this:
 
 We just did a couple of interesting new things! All of the *functions* we have written until now have four numbers, but the *triangle* *function* has six! Some functions - like *triangle* - need more information than others.
 
-The other thing we just did is we wrote a program that has two instructions. When we run the program, the computer will first create a *line* and then create a *triangle*. This is why we need to type the ```;```` semicolon at the end of each instruction, so the computer knows when to start the next instruction.
+The other thing we just did is we wrote a program that has two instructions. When we run the program, the computer will first create a *line* and then create a *triangle*. This is why we need to type the ```;``` semicolon at the end of each instruction, so the computer knows when to start the next instruction. You would think it could figure this out every time you type a new line, but computers aren't very smart.
 
+## Learning more about our functions
 We're starting to see a bunch of *function*s! We've tried ```ellipse```, ```rect```, ```line```, and ```triangle```. There are many more *function*s in programming, but they can be a little hard to remember. From now on, I will add a little guide every time we discover a new function. If you click on it, you can see more information and some examples:
 
 {% include function.html name="ellipse" description="This function lets you draw an 'ellipse'. Ellipses can be circles, but they can also be squished circular shapes like ovals" %}
