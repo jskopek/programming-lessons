@@ -30,7 +30,9 @@ Colors are expressed as numbers from 0 to 255. 255 is a weird number, but it is 
 
 The color 0 is black, and the color 255 is white. Every color between white and black has a number between 0 and 255. Here is what some of these numbers look like:
 
-*Chart of grayscale colors*
+|Color | Number | Code|
+|----------------|
+{% include lesson-5-grayscale-row.html label="Black" value=0 %}{% include lesson-5-grayscale-row.html label="Dim Gray" value=105 %}{% include lesson-5-grayscale-row.html label="Gray" value=128 %}{% include lesson-5-grayscale-row.html label="Dark Gray" value=169 %}{% include lesson-5-grayscale-row.html label="Silver" value=192 %}{% include lesson-5-grayscale-row.html label="Light Gray" value=211 %}{% include lesson-5-grayscale-row.html label="Gainsboro" value=220 %}{% include lesson-5-grayscale-row.html label="White Smoke" value=245 %}{% include lesson-5-grayscale-row.html label="White" value=255 %}
 
 Let's try changing the program so that we have different colors for each part of the face:
 
