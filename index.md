@@ -13,9 +13,8 @@ layout: default
 </div>
 {%- endfor -%}
 
-<div>
-<a href="/lessons/print">View one-page version of all lessons</a>
-</div>
+<div><a href="/assets/pdf/Lessons.pdf">View all lessons (PDF)</a> <a href="/lessons/print">(HTML)</a></div>
+<div><a href="/assets/pdf/InstructorWorksheet.pdf">View instructor worksheet (PDF)</a> <a href="/lessons/worksheet">(HMTL)</a></div>
 
 <h1>Examples</h1>
 {%- for example in site.examples -%}
