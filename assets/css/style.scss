@@ -30,3 +30,7 @@ a.alert {
     display: block;
 }
 
+
+body {
+    -webkit-print-color-adjust: exact; // print background color
+}
