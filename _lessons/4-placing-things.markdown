@@ -10,6 +10,10 @@ The screen you see in front of you is made up of millions of teeny, tiny lights.
 
 If you hold a magnifying glass in front of a screen, you will see that it looks a little bit like this:
 
+{% include image.html title="Closeup of a screen" filename="screen-closeup.png" %}
+
+One way to think of a screen is like a graph paper:
+
 *Illustration of graph paper*
 
 We need to pick a number for each light. The easiest way to do this (and the way programs do it) is by starting from the left side of the screen and giving the first column the number 1. We give the second column the number 2. The third is 3, and so on. So it looks a bit like this:

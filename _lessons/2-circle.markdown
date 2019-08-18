@@ -30,7 +30,7 @@ The computer does not know what we want to do unless we give it instructions. Th
 
 Great! Now the computer knows we want to draw an ```ellipse```, but we still need to give it more instructions! If we didn't, it wouldn't know how big to make our circle or where to put it. Computers don't like guessing!
 
-*Illustration of several different circles*
+{% include image.html title="Illustration of several different circles" filename="different-ellipsis.png" %}
 
 That's where the second part of our instruction comes in - the numbers that look like ```(10,10,10,10)```. In programming, we call these *arguments*, but they are just instructions that tell the program where to put the circle and how big to make it.
 
@@ -38,7 +38,7 @@ Finally, we need to tell the program that we are finished giving it an instructi
 
 So, what did we do when we wrote this line? We gave the program a *function* (draw an ```ellipse```), a bunch of *arguments* ```(10,10,10,10)```, and then told it we are finished with our instruction ```;```
 
-*Components of a function*
+{% include image.html title="Components of a function" filename="components-of-function.png" %}
 
 We don't know what the numbers do yet, but let's try changing them! Change the numbers to something different (but keep each number under 100 for now), then click the Play button. What happens to your circle?
 
