@@ -8,11 +8,11 @@ There's one really big problem here. We haven't really made anything colorful ye
 
 So far, we've been using the ```fill``` function with one attribute:
 
-<pre>fill(grayscale);</pre>
+{% include code.html code="fill(grayscale);" %}
 
 But ```fill``` can also take three attributes, with numbers between 0-255 for red, green, and blue:
 
-<pre>fill(red, green, blue);</pre>
+{% include code.html code="fill(red, green, blue);" %}
 
 The way we make colors is by mixing red, green, and blue values.
 

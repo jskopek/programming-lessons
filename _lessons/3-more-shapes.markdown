@@ -18,7 +18,7 @@ Let's try a different function! Replace the ```rect``` function with ```line```.
 
 Let's try drawing a triangle! Press the 'Enter' key, then type the line below:
 
-```triangle(50,50,20,90,80,90)```
+{% include code.html code="triangle(50,50,20,90,80,90);" %}
 
 Your program should look like this:
 

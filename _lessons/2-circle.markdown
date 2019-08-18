@@ -6,7 +6,7 @@ lesson_number: 2
 
 Let's write our first program! Type the line below into the Processing text editor:
 
-<code>ellipse(10,10,10,10);</code>
+{% include code.html code="ellipse(10,10,10,10);" %}
 
 You should see this on your screen:
 

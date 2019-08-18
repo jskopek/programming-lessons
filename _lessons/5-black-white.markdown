@@ -14,7 +14,7 @@ When we talk about colors, we use words like 'red' and 'pink', but computers don
 
 Let's take a look at how we do this. Type the following line at the top of your program:
 
-<pre>fill(0);</pre>
+{% include code.html code="fill(0);" %}
 
 We are telling the program to run the *function* ```fill``` with an *attribute* of ```0```.
 

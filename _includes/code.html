@@ -1,0 +1,3 @@
+{% assign lines = include.code|split:'\n' %}
+<pre>{% for line in lines %}{{ line }}
+{% endfor %}</pre>
