@@ -12,15 +12,17 @@ But in most programs, we don't do this. Instead, we usually use something called
 
 {% include code.html code="int color = 255;\nfill(color);" %}
 
-When we create a variable, we pick a name. The name can be anything we want, but it can't have any spaces. So all of these would be ok variable names:
+When we create a variable, we pick a name. We can give a variable any name we want, but it should only have letters  - no numbers or spaces. Names are normally uncapitalized (e.g. ```age``` instead of ```Age```), which might make your English teacher upset but makes programmers happy.
 
-<pre>int color = 255;
-int myFavoriteColor = 255;
+Not being able to use spaces is annoying, but there are a few ways we can deal with this. If we want to use a name with multiple words, such ```My Favorite Color```, we either use Capital Letters to indicate the words: ```myShoeSize```, or we use the underscore (```_```) letter: ```my_shoe_size```. Either option works, so it comes down to which one you find prettier. 
+
+Here's what some variables might look like:
+
+{% include code.html code="int color = 255;\nint myFavoriteColor = 255;\nint age = 15;\nint shoe_size = 8;" %}
 
 {% include snippet.html code="variable-1.pde" %}
 {% include snippet.html code="variable-2.pde" %}
 {% include snippet.html code="variable-3.pde" %}
 {% include snippet.html code="variable-4.pde" %}
 {% include snippet.html code="variable-5.pde" %}
-
 
