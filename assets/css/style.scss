@@ -34,3 +34,43 @@ a.alert {
 body {
     -webkit-print-color-adjust: exact; // print background color
 }
+@media print {
+    header {
+        display: none;
+    }
+    @page {
+        size: A4;
+        // size: landscape;
+    }
+    .wrapper {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .instructor-worksheet {
+        pre, table {
+            page-break-after: always;
+            margin: 0;
+        }
+        pre {
+            font-size: 3em;
+        }
+    }
+    .print-lessons {
+        h2.lesson {
+            page-break-before: always;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    img, .alert, .snippet {
+        page-break-inside: avoid;
+    }
+}
