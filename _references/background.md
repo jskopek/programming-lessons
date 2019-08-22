@@ -3,6 +3,7 @@ layout: reference
 title: background()
 summary: The background() function sets the color used for the background of the Processing window
 slug: background
+difficulty: beginner
 category: Color
 section: Setting
 code: background.pde

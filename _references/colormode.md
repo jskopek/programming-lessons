@@ -3,6 +3,7 @@ layout: reference
 title: colorMode()
 summary: Changes the way Processing interprets color data
 slug: colormode
+difficulty: beginner
 category: Color
 section: Setting
 code: colormode.pde

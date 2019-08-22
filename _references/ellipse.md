@@ -3,6 +3,7 @@ layout: reference
 title: ellipse()
 summary: Draws an ellipse (oval) to the screen
 slug: ellipse
+difficulty: beginner
 category: Shape
 section: 2D Primitives
 code: ellipse.pde

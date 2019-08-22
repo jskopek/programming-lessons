@@ -1,15 +1,32 @@
 
-FloatDict inventory;
+size(200, 100);
+background(153);
+line(0, 0, width, height);
+
+
 
 void setup() {
-  size(200, 200);
-  inventory = new FloatDict();
-  inventory.set("coffee",108.6);
-  inventory.set("flour",5.8);
-  inventory.set("tea",8.2);
-  println(inventory);
-  int s = inventory.size();
-  println(s);
+  size(320, 240);
 }
 
+void draw() {
+  background(153);
+  line(0, 0, width, height);
+}
+
+
+
+size(150, 200, P3D);  // Specify P3D renderer
+background(153);
+
+// With P3D, we can use z (depth) values...
+line(0, 0, 0, width, height, -100);
+line(width, 0, 0, width, height, -100);
+line(0, height, 0, width, height, -100);
+
+//...and 3D-specific functions, like box()
+translate(width/2, height/2);
+rotateX(PI/6);
+rotateY(PI/6);
+box(35);
 

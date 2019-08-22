@@ -3,6 +3,7 @@ layout: reference
 title: triangle()
 summary: A triangle is a plane created by connecting three points
 slug: triangle
+difficulty: beginner
 category: Shape
 section: 2D Primitives
 code: triangle.pde

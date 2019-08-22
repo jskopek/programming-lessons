@@ -3,6 +3,7 @@ layout: reference
 title: line()
 summary: Draws a line (a direct path between two points) to the screen
 slug: line
+difficulty: beginner
 category: Shape
 section: 2D Primitives
 code: line.pde

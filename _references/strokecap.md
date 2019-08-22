@@ -3,6 +3,7 @@ layout: reference
 title: strokeCap()
 summary: Sets the style for rendering line endings
 slug: strokecap
+difficulty: beginner
 category: Shape
 section: Attributes
 code: strokecap.pde

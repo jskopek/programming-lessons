@@ -3,6 +3,7 @@ layout: reference
 title: stroke()
 summary: Sets the color used to draw lines and borders around shapes
 slug: stroke
+difficulty: beginner
 category: Color
 section: Setting
 code: stroke.pde
