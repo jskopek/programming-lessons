@@ -33,6 +33,7 @@ class Reference:
 layout: reference
 title: {self.name}
 summary: {self.summary}
+slug: {self.slug}
 """
 
         if self.category:
