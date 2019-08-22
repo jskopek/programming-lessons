@@ -7,11 +7,17 @@ class: print-lessons
 <div>
     {% assign ordered_lessons = site.lessons | sort:"lesson_number" %}
     {%- for lesson in ordered_lessons -%}
-    <div>
+    <div class="lesson">
 
-      <h2 class="lesson">Lesson <strong>{{ lesson.lesson_number }}</strong></h2>
-      <h1>{{ lesson.title }}</h1>
-      {{ lesson.content }}
+        <div class="d-flex lesson-header justify-content-between align-items-center">
+            <div>
+                <h2 class="lesson">Lesson <strong>{{ lesson.lesson_number }}</strong></h2>
+                <h1>{{ lesson.title }}</h1>
+            </div>
+            <img src="/assets/images/lessons/{{ lesson.title|slugify }}.png"/>
+        </div>
+
+        {{ lesson.content }}
 
     </div>
     {%- endfor -%}
