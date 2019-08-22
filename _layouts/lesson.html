@@ -7,7 +7,7 @@ layout: default
 {{ content }}
 
 {% if page.collection %}
-    {% assign links = site[page.collection]  %}
+    {% assign links = site[page.collection]| sort:"lesson_number"  %}
 {% endif %}
 
 {% for link in links %}
