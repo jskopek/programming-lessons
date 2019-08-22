@@ -19,10 +19,11 @@ class Reference:
     related: str = None
     category: str = None
     section: str = None
+    difficulty: str = None
 
     @property
     def slug(self):
-        return slugify(self.name)
+        return slugify(self.filename)
 
     @property
     def summary(self):
@@ -34,6 +35,7 @@ layout: reference
 title: {self.name}
 summary: {self.summary}
 slug: {self.slug}
+difficulty: {self.difficulty}
 """
 
         if self.category:
@@ -136,8 +138,15 @@ for reference in references_list:
         reference.section = structure_dict[reference.slug]['section']
 
 # filters references against a whitelist (we only want to include a few references for now)
-WHITELIST = ['rect', 'ellipse', 'triangle', 'line', 'point', 'fill', 'stroke', 'background', 'nofill', 'nostroke', 'colormode', 'strokeweight', 'strokejoin', 'strokecap', 'beginshape', 'size']
+BEGINNER_FUNCTIONS = ['rect', 'ellipse', 'triangle', 'line', 'point', 'fill', 'stroke', 'background', 'nofill', 'nostroke', 'colormode', 'strokeweight', 'strokejoin', 'strokecap', 'beginshape', 'size', 'width', 'height', 'fullscreen', 'setup', 'draw']
+INTERMEDIATE_FUNCTIONS = ['framerate', 'redraw', 'noloop', 'loop']
+WHITELIST = BEGINNER_FUNCTIONS + INTERMEDIATE_FUNCTIONS
 references_list = [ref for ref in references_list if ref.slug in WHITELIST]
+for reference in references_list:
+    if reference.slug in BEGINNER_FUNCTIONS:
+        reference.difficulty = 'beginner'
+    elif reference.slug in INTERMEDIATE_FUNCTIONS:
+        reference.difficulty = 'intermediate'
 
 # generate the reference text and code
 for reference in references_list:
