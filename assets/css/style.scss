@@ -103,7 +103,7 @@ body {
     }
 
     .instructor-worksheet {
-        pre, table {
+        pre, table, img, .alert, .snippet-worksheet {
             page-break-after: always;
             margin: 0;
         }
