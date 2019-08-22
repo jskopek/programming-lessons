@@ -1,5 +1,17 @@
-<div class="alert reference">
-    <strong><i class="fas fa-lightbulb"></i> New Function:</strong>
-    <a href="/references/{{ include.name }}">{{ include.name }}</a>
-    {{ include.description }}
+{% assign slug = include.name|slugify %}
+{% for reference in site.references %}
+{% if reference.slug == slug %}
+<div class="alert reference d-flex justify-content-between align-items-center">
+    <div>
+        <div>
+            <strong><i class="fas fa-lightbulb"></i> New Function: {{ reference.title }}</strong>
+        </div>
+        <div>{{ reference.summary }}</div>
+        <a href="{{ reference.url }}">Learn More <i class="fas fa-chevron-right"></i></a>
+    </div>
+    {% if reference.code %}
+    <canvas data-processing-sources="/references/{{ reference.code }}"></canvas>
+    {% endif %}
 </div>
+{% endif %}
+{% endfor %}
