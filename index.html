@@ -8,11 +8,15 @@ class: homepage
 
 <h1>Lessons</h1>
 {% assign ordered_pages = site.lessons | sort:"lesson_number" %}
+<div class="lessons">
 {%- for lesson in ordered_pages -%}
-<div>
-    <a href="{{lesson.url }}">Lesson {{ lesson.lesson_number }}: {{ lesson.title }}</a>
-</div>
+<a class="lesson" href="{{ lesson.url }}">
+    <img src="/assets/images/lessons/{{ lesson.title|slugify }}.png"/>
+    <span>Lesson {{ lesson.lesson_number }}</span>
+    <strong>{{ lesson.title }}</strong>
+</a>
 {%- endfor -%}
+</div>
 
 <h1>Books</h1>
 <p>Download a PDF copy of the lessons</p>
