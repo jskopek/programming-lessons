@@ -3,6 +3,13 @@
 ---
 
 @import "{{ site.theme }}";
+
+.site-title {
+    img {
+        height: 3em;
+    }
+    margin: 1em 0;
+}
 .alert {
     background: #ddd;
     border: 1px solid #333;
