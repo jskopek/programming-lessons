@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+class: homepage
 ---
 
 <h1>Lessons</h1>
@@ -13,10 +14,13 @@ layout: default
 </div>
 {%- endfor -%}
 
+<h1>Books</h1>
+<p>Download a PDF copy of the lessons</p>
 <div><a href="/assets/pdf/Lessons.pdf">View all lessons (PDF)</a> <a href="/lessons/print">(HTML)</a></div>
 <div><a href="/assets/pdf/InstructorWorksheet.pdf">View instructor worksheet (PDF)</a> <a href="/lessons/worksheet">(HMTL)</a></div>
 
 <h1>Examples</h1>
+<p>Use these example Processing programs to learn more about processing</p>
 <div class="d-flex justify-content-between">
 {% assign items_grouped = site.examples | group_by: 'difficulty' %}
 {% for group in items_grouped %}
@@ -32,6 +36,7 @@ layout: default
 </div>
 
 <h1>Reference</h1>
+<p>Learn more about the functions in Processing</p>
 
 {% assign items_grouped = site.references | group_by: 'category' %}
 {% for group in items_grouped %}
