@@ -2,16 +2,19 @@
 layout: default
 ---
 
+<div class="reference">
 <h1>{{ page.title }}</h1>
+<div class="reference-meta">
 {% if page.category %}
-<h2>Category: {{ page.category }}</h2>
+<h3><strong>Category:</strong> {{ page.category }}</h3>
 {% endif %}
 {% if page.section %}
-<h3>Subcategory: {{ page.section }}</h3>
+<h3><strong>Subcategory:</strong> {{ page.section }}</h3>
 {% endif %}
 {% if page.difficulty %}
-<h3>Difficulty: {{ page.difficulty|capitalize }}</h3>
+<h3><strong>Complexity:</strong> {{ page.difficulty|capitalize }}</h3>
 {% endif %}
+</div>
 
 {{ content }}
 
@@ -23,3 +26,4 @@ layout: default
 {% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
 <pre>{{ source_code | xml_escape }}</pre>
 {% endif %}
+</div>
