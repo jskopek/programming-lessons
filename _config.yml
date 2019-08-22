@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Learn to Program with Processing
+title: Learn to Program
 email: jeanmarc@skopek.ca
 description: >- # this means to ignore newlines until "baseurl:"
     Learn to program with the Processing programming langauge
