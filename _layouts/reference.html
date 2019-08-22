@@ -9,6 +9,9 @@ layout: default
 {% if page.section %}
 <h3>Subcategory: {{ page.section }}</h3>
 {% endif %}
+{% if page.difficulty %}
+<h3>Difficulty: {{ page.difficulty|capitalize }}</h3>
+{% endif %}
 
 {{ content }}
 
