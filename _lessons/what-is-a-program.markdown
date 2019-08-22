@@ -36,7 +36,7 @@ Every program is made up of a bunch of instructions that the computer reads and 
 
 Let's pretend we want to write a program that tells the computer how to make a peanut butter sandwich.
 
-*Peanut butter, bread, computer with robot arms*
+![Peanut butter, bread, computer with robot arms](/assets/images/pb-robot.png)
 
 {% include exercise.html content="Pretend your computer has hands. What instructions would you give the computer to make a peanut butter sandwich?" %}
 
@@ -44,7 +44,7 @@ Let's say you asked your friend to make you a peanut butter sandwich but they do
 
 If your friend hears this, they could probably understand what to do, but a computer won't. Instead, it would look like this:
 
-*Peanut butter on bread*
+![Peanut butter on bread](/assets/images/pb-robot-fail.png)
 
 When we write a computer program, we need to be way more clear. Our program might look something like this:
 
@@ -55,7 +55,7 @@ When we write a computer program, we need to be way more clear. Our program migh
 5. Put the knife away
 6. Put the two pieces of bread together
 
-*Peanut butter sandwich, happy robot arms*
+![Peanut butter sandwich, happy robot arms](/assets/images/pb-robot-success.png)
 
 As you can see, our programming instructions need to be very clear. This can be a little hard to get used to at first, but don't worry! Our first programs will be very simple.
 
