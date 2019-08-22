@@ -138,8 +138,8 @@ for reference in references_list:
         reference.section = structure_dict[reference.slug]['section']
 
 # filters references against a whitelist (we only want to include a few references for now)
-BEGINNER_FUNCTIONS = ['rect', 'ellipse', 'triangle', 'line', 'point', 'fill', 'stroke', 'background', 'nofill', 'nostroke', 'colormode', 'strokeweight', 'strokejoin', 'strokecap', 'beginshape', 'size', 'width', 'height', 'fullscreen', 'setup', 'draw']
-INTERMEDIATE_FUNCTIONS = ['framerate', 'redraw', 'noloop', 'loop']
+BEGINNER_FUNCTIONS = ['rect', 'ellipse', 'triangle', 'line', 'point', 'fill', 'stroke', 'background', 'nofill', 'nostroke', 'strokeweight', 'strokejoin', 'strokecap', 'beginshape', 'size', 'width', 'height', 'fullscreen', 'setup', 'draw', 'println']
+INTERMEDIATE_FUNCTIONS = ['framerate', 'redraw', 'noloop', 'loop', 'colormode', 'rectmode', 'map', 'int', 'float', 'bool', 'char', 'norm', 'lerp', 'abs']
 WHITELIST = BEGINNER_FUNCTIONS + INTERMEDIATE_FUNCTIONS
 references_list = [ref for ref in references_list if ref.slug in WHITELIST]
 for reference in references_list:
