@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title:  "Placing things on the screen"
-lesson_number: 4
+lesson_number: 6
 ---
 
 So far, we've written a number of *functions* - like ```ellipse``` - with a bunch of numeric *arguments* - such as ```(10,10,10,10)``` - that tell the program where to put the shapes and how big to make them. But what do these numbers mean?
