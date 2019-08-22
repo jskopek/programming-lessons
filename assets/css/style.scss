@@ -11,25 +11,38 @@
     margin: 1em 0;
 }
 .alert {
-    background: #ddd;
-    border: 1px solid #333;
-    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 4px;
     padding: 1em;
     margin-bottom: 1em;
-    &.note {
-        background: #f0fff0;
-        border-color: green;
+    strong {
+        display: block;
+        margin-bottom: 0.5em;
     }
     &.tip {
-        background: #d5e7ff;
-        border-color: blue;
+        strong { color: #008080; }
+        border-color: #008080;
+        box-shadow: inset 0px 0px 8px #00999940;
+    }
+    &.exercise {
+        strong { color: #064ba4; }
+        border-color: #064ba4;
+        box-shadow: inset 0px 0px 8px #1756a94a;
     }
     &.next-lesson {
-        background: #a61717;
-        border-color: #a61717;
-        color: #fff;
-        padding: 2em 1em;
-        margin-top: 2em;
+        color: #a4066c;
+        border-color: #a4066c;
+        box-shadow: inset 0px 0px 8px #9900003d;
+        strong {
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+    }
+    &.reference {
+        strong { color: #a406a0; }
+        border-color: #a406a0;
+        box-shadow: inset 0px 0px 8px #99000038;
     }
 }
 

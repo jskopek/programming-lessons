@@ -4,9 +4,9 @@
 <div class="alert reference d-flex justify-content-between align-items-center">
     <div>
         <div>
-            <strong><i class="fas fa-lightbulb"></i> New Function: {{ reference.title }}</strong>
+            <strong>{{ reference.title }}</strong>
         </div>
-        <div>{{ reference.summary }}</div>
+        <p>{{ reference.summary }}</p>
         <a href="{{ reference.url }}">Learn More <i class="fas fa-chevron-right"></i></a>
     </div>
     {% if reference.code %}
