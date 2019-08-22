@@ -1,23 +1,23 @@
 ---
 layout: lesson
 title:  "Opening Processing"
-lesson_number: 1
+lesson_number: 2
 ---
 
-We will be using a program called "Processing" to write our programs. Before we can write anything, we need to open this program.
+We will be using a program called **Processing** to create our programs. Before we can make anything, we need to open Processing.
+
+{% include tip.html content="Wait, we're using a program to write our program? Believe it or not, every program is made using another program. Makes you wonder how the very first programs were made!" %}
 
 Look for the "Processing" icon on the desktop. It should look like this:
 
-![Processing icon](/assets/images/lesson1-1.png)
+![Processing icon](/assets/images/processing-shortcut.png)
 
-Double click on the icon to open Processing. Once it has loaded, you should see the "Processing" text editor on your screen:
+Double click on the icon to open Processing. Once it has loaded, you should see the **Processing** text editor on your screen:
 
-![Processing app](/assets/images/lesson1-2.png)
+![Processing app](/assets/images/blank-processing-window.png)
 
-We use the Processing program to write our own programs. To write a program, we click on the white area and type our program. Once we have finished writing our program, we click on the <i class="fa fa-play"></i> Play button to run it.
+We use **Processing** to write our own programs. To write a program, we click on the white area and type our instructions. Once we have finished writing our program, we click on the <i class="fa fa-play"></i> Play button to run it:
 
-*Screenshot of processing features*
+![Processing app](/assets/images/parts-of-processing.png)
 
-{% include tip.html content="If you are typing and nothing shows up, make sure it is <em>focused</em> by clicking your cursor anywhere on the white part (this is the text editor) to select it. You should now be able to type into it." %}
-
-Congratulations! We are now ready to start making our first Processing program!
+We are now ready to start making our first program!
