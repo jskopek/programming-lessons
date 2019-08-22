@@ -2,6 +2,7 @@
 layout: reference
 title: point()
 summary: Draws a point, a coordinate in space at the dimension of one pixel
+slug: point
 category: Shape
 section: 2D Primitives
 code: point.pde

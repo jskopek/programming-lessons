@@ -2,6 +2,7 @@
 layout: reference
 title: beginShape()
 summary: Using the beginShape() and endShape() functions allow creating more complex forms
+slug: beginshape
 category: Shape
 section: Vertex
 code: beginshape.pde

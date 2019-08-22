@@ -2,6 +2,7 @@
 layout: reference
 title: rect()
 summary: Draws a rectangle to the screen
+slug: rect
 category: Shape
 section: 2D Primitives
 code: rect.pde

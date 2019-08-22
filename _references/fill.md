@@ -2,6 +2,7 @@
 layout: reference
 title: fill()
 summary: Sets the color used to fill shapes
+slug: fill
 category: Color
 section: Setting
 code: fill.pde

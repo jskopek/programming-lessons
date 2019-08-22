@@ -2,6 +2,7 @@
 layout: reference
 title: strokeJoin()
 summary: Sets the style of the joints which connect line segments
+slug: strokejoin
 category: Shape
 section: Attributes
 code: strokejoin.pde

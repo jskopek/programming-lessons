@@ -2,6 +2,7 @@
 layout: reference
 title: noStroke()
 summary: Disables drawing the stroke (outline)
+slug: nostroke
 category: Color
 section: Setting
 code: nostroke.pde

@@ -2,6 +2,7 @@
 layout: reference
 title: strokeWeight()
 summary: Sets the width of the stroke used for lines, points, and the border around shapes
+slug: strokeweight
 category: Shape
 section: Attributes
 code: strokeweight.pde
