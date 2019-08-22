@@ -138,7 +138,7 @@ body {
     }
     @page {
         size: A4;
-        // size: landscape;
+        //size: landscape;
     }
     .wrapper {
         margin: 0;
@@ -150,21 +150,27 @@ body {
             page-break-after: always;
             margin: 0;
         }
+        .alert {
+            font-size: 2em;
+        }
         pre {
             font-size: 3em;
         }
+        img {
+            max-height: 90vh;
+            margin: 0 auto;
+            display: block;
+        }
     }
     .print-lessons {
-        h2.lesson {
+        .lesson {
             page-break-before: always;
+            img {
+                max-width: 60%;
+            }
         }
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-        canvas {
-            display: block;
-            margin: 0 auto;
+        .reference a {
+            display: none;
         }
     }
 
