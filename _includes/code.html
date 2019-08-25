@@ -1,3 +1,6 @@
 {% assign lines = include.code|split:'\n' %}
-<pre>{% for line in lines %}{{ line }}
-{% endfor %}</pre>
+{% assign adds = include.add|split:',' %}
+{% assign subs = include.sub|split:',' %}
+<div class="codeblock">
+    {% for line in lines %}{% capture index_string %}{{ forloop.index }}{% endcapture %}<div class="{% if adds contains index_string %}add{% endif %}{% if subs contains index_string %}sub{% endif %}">{{ line }}</div>{% endfor %}
+</div>
