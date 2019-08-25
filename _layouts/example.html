@@ -13,6 +13,30 @@ layout: default
 <pre>{{ source_code | xml_escape }}</pre>
 {% endif %}
 
+
+<h2>Functions Used</h2>
+{% assign functions = page.functions|split:',' %}
+{% for function in functions %}
+    {% assign slug = function|slugify %}
+    {% for reference in site.references %}
+    {% if reference.slug == slug %}
+    <div class="alert reference d-flex justify-content-between align-items-center">
+        <div>
+            <div>
+                <strong>{{ reference.title }}</strong>
+            </div>
+            <p>{{ reference.summary }}</p>
+            <a href="{{ reference.url }}">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        {% if reference.code %}
+        <canvas data-processing-sources="/references/{{ reference.code }}"></canvas>
+        {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
 {% if page.collection %}
     {% assign links = site[page.collection]  %}
 {% endif %}
