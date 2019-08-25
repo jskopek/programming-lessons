@@ -2,69 +2,73 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: fullscreen
 class: homepage
 ---
 
-<h1>Lessons</h1>
 {% assign ordered_pages = site.lessons | sort:"lesson_number" %}
 <div class="lessons">
 {%- for lesson in ordered_pages -%}
-<a class="lesson" href="{{ lesson.url }}">
-    <img src="/assets/images/lessons/{{ lesson.title|slugify }}.png"/>
-    <span>Lesson {{ lesson.lesson_number }}</span>
-    <strong>{{ lesson.title }}</strong>
+<a class="lesson-picker" href="{{ lesson.url }}">
+    <div class="wrapper d-flex align-items-center">
+        <div class="mr-auto">
+            <span>Lesson {{ lesson.lesson_number }}</span>
+            <strong>{{ lesson.title }}</strong>
+        </div>
+        <img src="/assets/images/lessons/{{ lesson.title|slugify }}.png"/>
+    </div>
 </a>
 {%- endfor -%}
 </div>
 
-<h1>Books</h1>
-<p>Download a PDF copy of the lessons</p>
-<div class="books">
-    <div>
-        <a class="book" href="/assets/pdf/Lessons.pdf">
-            <img src="/assets/images/book.png"/>
-            All lessons (PDF)
-        </a> 
-        <a href="/lessons/print">HTML format</a>
+<div class="wrapper">
+    <h1>Books</h1> <p>Download a PDF copy of the lessons</p>
+    <div class="books">
+        <div>
+            <a class="book" href="/assets/pdf/Lessons.pdf">
+                <img src="/assets/images/book.png"/>
+                All lessons (PDF)
+            </a> 
+            <a href="/lessons/print">(HTML)</a>
+        </div>
+        <div>
+            <a class="book" href="/assets/pdf/InstructorWorksheet.pdf">
+                <img src="/assets/images/instructors-worksheet.png"/>
+                Instructor worksheet (PDF)
+            </a> 
+            <a href="/lessons/worksheet">(HTML)</a>
+        </div>
     </div>
-    <div>
-        <a class="book" href="/assets/pdf/InstructorWorksheet.pdf">
-            <img src="/assets/images/instructors-worksheet.png"/>
-            Instructor worksheet (PDF)
-        </a> 
-        <a href="/lessons/worksheet">HTML format</a>
-    </div>
-</div>
 
-<h1>Examples</h1>
-<p>Use these example Processing programs to learn more about processing</p>
-<div class="d-flex justify-content-between">
-{% assign items_grouped = site.examples | group_by: 'difficulty' %}
-{% for group in items_grouped %}
-<div>
-    <h3>{{group.name|capitalize}}</h3>
-    {% for example in group.items %}
+    <h1>Examples</h1>
+    <p>Use these example Processing programs to learn more about processing</p>
+    <div class="d-flex justify-content-between">
+    {% assign items_grouped = site.examples | group_by: 'difficulty' %}
+    {% for group in items_grouped %}
     <div>
-        <a href="{{example.url }}">{{ example.title }}</a>
+        <h3>{{group.name|capitalize}}</h3>
+        {% for example in group.items %}
+        <div>
+            <a href="{{example.url }}">{{ example.title }}</a>
+        </div>
+        {% endfor %}
     </div>
     {% endfor %}
-</div>
-{% endfor %}
-</div>
+    </div>
 
-<h1>Reference</h1>
-<p>Learn more about the functions in Processing</p>
+    <h1>Reference</h1>
+    <p>Learn more about the functions in Processing</p>
 
-{% assign items_grouped = site.references | group_by: 'category' %}
-{% for group in items_grouped %}
-    <h3>{{group.name}}</h3>
-    <table>
-        {% for reference in group.items %}
-        <tr>
-            <td><a href="{{ reference.url }}">{{ reference.title }}</a></td>
-            <td>{{ reference.summary }}</td>
-        </tr>
-        {% endfor %}
-    </table>
-{% endfor %}
+    {% assign items_grouped = site.references | group_by: 'category' %}
+    {% for group in items_grouped %}
+        <h3>{{group.name}}</h3>
+        <table>
+            {% for reference in group.items %}
+            <tr>
+                <td><a href="{{ reference.url }}">{{ reference.title }}</a></td>
+                <td>{{ reference.summary }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+</div>

@@ -30,15 +30,6 @@
         border-color: #064ba4;
         box-shadow: inset 0px 0px 8px #1756a94a;
     }
-    &.next-lesson {
-        color: #a4066c;
-        border-color: #a4066c;
-        box-shadow: inset 0px 0px 8px #9900003d;
-        strong {
-            font-size: 1.2em;
-            margin-top: 0.5em;
-        }
-    }
     &.reference {
         strong { color: #a406a0; }
         border-color: #a406a0;
@@ -50,27 +41,13 @@ a.alert {
     display: block;
 }
 
+// pages
 .homepage {
+    padding: 0;
     h1 {
         margin-top: 2em;
     }
     .lessons {
-        display: flex;
-        flex-wrap: wrap;
-        .lesson {
-            flex: 1 1 200px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            border: 4px solid #c0d3eb;
-            border-radius: 4px;
-            box-shadow: 2px 2px 5px #3179d829;
-            text-align: center;
-            padding: 10px; 
-
-            span, strong {
-                display: block;
-            }
-        }
     }
     .books {
         display: flex;
@@ -80,20 +57,7 @@ a.alert {
             margin-bottom: 10px;
             text-align: center;
         }
-        .book {
-            display: block;
-            border: 4px solid #c0d3eb;
-            border-radius: 4px;
-            box-shadow: 2px 2px 5px #3179d829;
-            text-align: center;
-            padding: 10px; 
-
-            span, strong {
-                display: block;
-            }
-        }
     }
-
 }
 .lesson {
     .lesson-header {
@@ -105,16 +69,10 @@ a.alert {
             color: #555;
         }
     }
-    .next-lesson {
-        border-top: 2px solid #1756a9;
-        display: block;
-        background: linear-gradient(45deg, #f4f9ff, transparent);
+    .lesson-picker {
+        border-bottom: 0;
+        border-top: 2px solid #e0eeff;
         margin-top: 2em;
-        padding: 2em 0;
-
-        img {
-            width: 20%;
-        }
     }
     > p img, 
     > canvas {
@@ -126,6 +84,7 @@ a.alert {
         border: 1px solid #f5c0cd;
     }
 }
+
 .reference {
     .reference-meta {
         margin-bottom: 2em;
@@ -135,8 +94,47 @@ a.alert {
         }
     }
 }
+// end pages
+
+.lesson-picker {
+    padding: 10px; 
+    border-bottom: 2px solid #e0eeff;
+    background: #fff;
+    transition: background 500ms;
+    display: block;
+
+    span, strong {
+        display: block;
+    }
+    strong {
+        font-size: 1.5em;
+    }
+    img {
+        max-width: 20%;
+        opacity: 0.5;
+        transition: opacity 300ms, transform 600ms;
+    }
+
+    &:hover {
+        background: #f2f8ff;
+        text-decoration: none;
+        img {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+    }
+    &:active {
+        img {
+            opacity: 0;
+            transform: scale(0.2);
+        }
+    }
+}
+
+
 div.codeblock {
     margin-bottom: 15px;
+    padding: 10px;
     div {
         display: block;
         unicode-bidi: embed;
