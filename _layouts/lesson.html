@@ -1,36 +1,52 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="lesson">
-    <div class="d-flex lesson-header justify-content-between align-items-center">
-        <div>
-            <h2 class="lesson">Lesson <strong>{{ page.lesson_number }}</strong></h2>
-            <h1>{{ page.title }}</h1>
-        </div>
-        <img src="/assets/images/lessons/{{ page.title|slugify }}.png"/>
-    </div>
-    {{ content }}
+    {%- include head.html -%}
 
-    {% if page.collection %}
-        {% assign links = site[page.collection]| sort:"lesson_number"  %}
-    {% endif %}
+    <body>
 
-    {% for link in links %}
-        {% if link.title == page.title %}
-            {% unless forloop.last %}
+        {%- include header.html -%}
+
+        <main class="page-content {% if page.class %}{{ page.class }}{% endif %} lesson" aria-label="Content">
+            <div class="wrapper">
+                <div class="d-flex lesson-header justify-content-between align-items-center">
+                    <div>
+                        <h2 class="lesson">Lesson <strong>{{ page.lesson_number }}</strong></h2>
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                    <img src="/assets/images/lessons/{{ page.title|slugify }}.png"/>
+                </div>
+                {{ content }}
+
+                {% if page.collection %}
+                {% assign links = site[page.collection]| sort:"lesson_number"  %}
+                {% endif %}
+
+                {% for link in links %}
+                {% if link.title == page.title %}
+                {% unless forloop.last %}
                 {% assign next = links[forloop.index] %}
-            {% endunless %}
-        {% endif %}
-    {% endfor %}
+                {% endunless %}
+                {% endif %}
+                {% endfor %}
 
-    {% if next %}
-    <a href="{{ next.url}}" class="alert next-lesson d-flex justify-content-between align-items-center">
-        <div>
-            <i class="fas fa-chalkboard-teacher"></i> Next lesson:
-            <div><strong>{{ next.title }}  <i class="fas fa-chevron-right"></i></strong></div>
-        </div>
-        <img src="/assets/images/lessons/{{ next.title|slugify }}.png"/>
-    </a>
-    {% endif %}
-</div>
+            </div>
+
+            {% if next %}
+            <a href="{{ next.url}}" class="next-lesson">
+                <div class="wrapper d-flex align-items-center">
+                    <div class="mr-auto">
+                        <i class="fas fa-chalkboard-teacher"></i> Next lesson:
+                        <div><strong>{{ next.title }}  <i class="fas fa-chevron-right"></i></strong></div>
+                    </div>
+                    <img src="/assets/images/lessons/{{ next.title|slugify }}.png"/>
+                </div>
+            </a>
+            {% endif %}
+
+        </main>
+    </body>
+
+</html>
+
+

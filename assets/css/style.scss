@@ -105,8 +105,16 @@ a.alert {
             color: #555;
         }
     }
-    .next-lesson img {
-        width: 20%;
+    .next-lesson {
+        border-top: 2px solid #1756a9;
+        display: block;
+        background: linear-gradient(45deg, #f4f9ff, transparent);
+        margin-top: 2em;
+        padding: 2em 0;
+
+        img {
+            width: 20%;
+        }
     }
     > p img, 
     > canvas {
