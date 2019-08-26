@@ -4,11 +4,25 @@
 
 @import "{{ site.theme }}";
 
-.site-title {
-    img {
-        height: 3em;
-    }
+.site-header .site-title {
+    font-weight: bold;
     margin: 1em 0;
+    transition: color 500ms;
+    color: #777;
+    &:hover {
+        color: #000;
+        text-decoration: none;
+
+        img {
+            transform: scale(1.2);
+        }
+    }
+    img {
+        margin-right: 0.3em;
+        height: 3em;
+        transition: transform 400ms;
+    }
+
 }
 .alert {
     background: #fff;
