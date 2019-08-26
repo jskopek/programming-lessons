@@ -21,9 +21,16 @@ layout: default
 {% if page.code %}
 <h1>Example</h1>
 
-<canvas data-processing-sources="{{ page.code }}"></canvas>
+<div class="d-flex align-items-center mb-3 snippet">
+    <div class="flex-grow-1 mr-4">
+        <h5>Code:</h5>
+        {% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
+        <pre>{{ source_code | xml_escape }}</pre>
+        {% endif %}
+    </div>
 
-{% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
-<pre>{{ source_code | xml_escape }}</pre>
-{% endif %}
+    <div>
+        <h5>Preview:</h5>
+        <canvas data-processing-sources="{{ page.code }}"></canvas>
+    </div>
 </div>

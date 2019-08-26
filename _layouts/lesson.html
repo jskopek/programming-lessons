@@ -31,11 +31,18 @@ layout: fullscreen
     <a href="{{ next.url}}" class="lesson-picker">
         <div class="wrapper d-flex align-items-center">
             <div class="mr-auto">
-                <i class="fas fa-chalkboard-teacher"></i> Next lesson:
-                <div><strong>{{ next.title }}  <i class="fas fa-chevron-right"></i></strong></div>
+                <span><i class="fas fa-chalkboard-teacher"></i> Next lesson</span>
+                <strong>{{ next.title }}  <i class="fas fa-chevron-right"></i></strong>
             </div>
             <img src="/assets/images/lessons/{{ next.title|slugify }}.png"/>
         </div>
     </a>
     {% endif %}
 </div>
+<script type="text/javascript">
+    document.querySelectorAll('.lesson-picker').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+            e.currentTarget.classList.add('active');
+        });
+    });
+</script>

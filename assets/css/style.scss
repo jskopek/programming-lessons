@@ -12,10 +12,10 @@
 }
 .alert {
     background: #fff;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-radius: 4px;
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
     strong {
         display: block;
         margin-bottom: 0.5em;
@@ -31,9 +31,9 @@
         box-shadow: inset 0px 0px 8px #1756a94a;
     }
     &.reference {
-        strong { color: #a406a0; }
-        border-color: #a406a0;
-        box-shadow: inset 0px 0px 8px #99000038;
+        strong { color: #998900; }
+        border-color: #998900;
+        box-shadow: inset 0px 0px 8px #99780038;
     }
 }
 
@@ -66,7 +66,7 @@ a.alert {
         }
         h2 {
             margin: 0;
-            color: #555;
+            color: #888;
         }
     }
     .lesson-picker {
@@ -74,8 +74,8 @@ a.alert {
         border-top: 2px solid #e0eeff;
         margin-top: 2em;
     }
-    > p img, 
-    > canvas {
+    .wrapper > p img, 
+    .wrapper > canvas {
         display: block;
         margin: 2em auto;
     }
@@ -103,6 +103,9 @@ a.alert {
     transition: background 500ms;
     display: block;
 
+    span {
+        color: #888;
+    }
     span, strong {
         display: block;
     }
@@ -123,10 +126,10 @@ a.alert {
             transform: scale(1.2);
         }
     }
-    &:active {
+    &.active {
         img {
             opacity: 0;
-            transform: scale(0.2);
+            transform: scale(2.2);
         }
     }
 }

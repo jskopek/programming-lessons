@@ -72,3 +72,10 @@ class: homepage
         </table>
     {% endfor %}
 </div>
+<script type="text/javascript">
+    document.querySelectorAll('.lesson-picker').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+            e.currentTarget.classList.add('active');
+        });
+    });
+</script>
