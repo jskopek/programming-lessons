@@ -5,3 +5,4 @@ _site
 node_modules
 venv
 reference_generator/out
+examples_generator/out
