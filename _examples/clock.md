@@ -3,7 +3,7 @@ layout: example
 title: Clock.
 summary: Clock
 slug: clock
-difficulty: beginner
+difficulty: intermediate
 code: clock.pde
 source: https://processing.org/examples/clock.html
 ---

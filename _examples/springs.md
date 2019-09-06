@@ -3,7 +3,7 @@ layout: example
 title: Springs.
 summary: Springs
 slug: springs
-difficulty: advanced
+difficulty: expert
 code: springs.pde
 source: https://processing.org/examples/springs.html
 ---

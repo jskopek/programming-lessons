@@ -3,7 +3,7 @@ layout: example
 title: Easing.
 summary: Easing
 slug: easing
-difficulty: beginner
+difficulty: intermediate
 code: easing.pde
 source: https://processing.org/examples/easing.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Characters Strings.
 summary: Characters Strings
 slug: charactersstrings
-difficulty: beginner
+difficulty: intermediate
 code: charactersstrings.pde
 source: https://processing.org/examples/charactersstrings.html
 ---

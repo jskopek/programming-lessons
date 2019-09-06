@@ -3,7 +3,7 @@ layout: example
 title: Bezier.
 summary: Bezier
 slug: bezier
-difficulty: beginner
+difficulty: intermediate
 code: bezier.pde
 source: https://processing.org/examples/bezier.html
 ---

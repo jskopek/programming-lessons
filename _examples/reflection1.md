@@ -3,7 +3,7 @@ layout: example
 title: Non-orthogonal Reflection
 summary: Non-orthogonal Reflection by Ira Greenberg
 slug: reflection1
-difficulty: advanced
+difficulty: expert
 code: reflection1.pde
 source: https://processing.org/examples/reflection1.html
 ---

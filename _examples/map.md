@@ -3,7 +3,7 @@ layout: example
 title: Map.
 summary: Map
 slug: map
-difficulty: beginner
+difficulty: intermediate
 code: map.pde
 source: https://processing.org/examples/map.html
 ---

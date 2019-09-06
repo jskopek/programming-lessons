@@ -3,7 +3,7 @@ layout: example
 title: Bouncing Ball with Vectors
 summary: Bouncing Ball with Vectors by Daniel Shiffman
 slug: bouncingball
-difficulty: beginner
+difficulty: advanced
 code: bouncingball.pde
 source: https://processing.org/examples/bouncingball.html
 ---

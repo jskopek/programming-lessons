@@ -3,7 +3,7 @@ layout: example
 title: Spring.
 summary: Spring
 slug: spring
-difficulty: intermediate
+difficulty: advanced
 code: spring.pde
 source: https://processing.org/examples/spring.html
 ---

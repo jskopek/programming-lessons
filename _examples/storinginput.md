@@ -3,7 +3,7 @@ layout: example
 title: Storing Input.
 summary: Storing Input
 slug: storinginput
-difficulty: intermediate
+difficulty: advanced
 code: storinginput.pde
 source: https://processing.org/examples/storinginput.html
 ---

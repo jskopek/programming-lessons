@@ -3,7 +3,7 @@ layout: example
 title: ArrayList of objects
 summary: ArrayList of objects by Daniel Shiffman
 slug: arraylistclass
-difficulty: intermediate
+difficulty: advanced
 code: arraylistclass.pde
 source: https://processing.org/examples/arraylistclass.html
 ---

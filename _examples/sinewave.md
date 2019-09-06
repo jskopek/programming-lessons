@@ -3,7 +3,7 @@ layout: example
 title: Sine Wave
 summary: Sine Wave by Daniel Shiffman
 slug: sinewave
-difficulty: intermediate
+difficulty: advanced
 code: sinewave.pde
 source: https://processing.org/examples/sinewave.html
 ---

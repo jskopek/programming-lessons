@@ -3,7 +3,7 @@ layout: example
 title: Flocking
 summary: Flocking by Daniel Shiffman
 slug: flocking
-difficulty: advanced
+difficulty: expert
 code: flocking.pde
 source: https://processing.org/examples/flocking.html
 ---

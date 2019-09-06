@@ -3,7 +3,7 @@ layout: example
 title: Arctangent.
 summary: Arctangent
 slug: arctangent
-difficulty: beginner
+difficulty: intermediate
 code: arctangent.pde
 source: https://processing.org/examples/arctangent.html
 ---

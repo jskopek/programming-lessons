@@ -3,7 +3,7 @@ layout: example
 title: Circle Collision with Swapping Velocities
 summary: Circle Collision with Swapping Velocities by Ira Greenberg
 slug: circlecollision
-difficulty: intermediate
+difficulty: advanced
 code: circlecollision.pde
 source: https://processing.org/examples/circlecollision.html
 ---

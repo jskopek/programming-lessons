@@ -3,7 +3,7 @@ layout: example
 title: Random Gaussian.
 summary: Random Gaussian
 slug: randomgaussian
-difficulty: beginner
+difficulty: intermediate
 code: randomgaussian.pde
 source: https://processing.org/examples/randomgaussian.html
 ---

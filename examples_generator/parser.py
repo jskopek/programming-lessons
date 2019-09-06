@@ -1,8 +1,7 @@
 # Parse the content from the Processing.docset Dash references
 # Requires BeautifulSoup4
 # Processing Docset may be downloaded at: https://sanfrancisco.kapeli.com/feeds/Processing.tgz
-# To use, create an 'in' and an 'out' folder
-# Paste all of the HTML files from the Processing docset into the 'in' folder, then run the 'python processing_docset_parser.py' method
+# To use, create an 'in' and an 'out' folder Paste all of the HTML files from the Processing docset into the 'in' folder, then run the 'python processing_docset_parser.py' method
 
 from dataclasses import dataclass
 from slugify import slugify
@@ -87,18 +86,20 @@ def parse_examples_folder(folder_path):
 examples_list = parse_examples_folder(folder_path='in')
 
 # filters examples against a whitelist (we only want to include a few examples for now)
-BEGINNER_EXAMPLES = ['arctangent','arm','array','array2d','bezier','bounce','bouncingball','brownian','button','charactersstrings','clock','colorvariables','conditionals1','conditionals2','constrain','continuouslines','coordinates','datatypeconversion','distance1d','distance2d','doublerandom','easing','embeddediteration','follow1','follow2','follow3','functions','hue','incrementdecrement','integersfloats','interpolate','iteration','keyboard','keyboardfunctions','linear','lineargradient','logicaloperators','noise1d','mousesignals','mousepress','mousefunctions','mouse2d','mouse1d','map','loop','noloop','operatorprecedence','pattern','piechart','pointslines','radialgradient','random','randomgaussian','redraw','rollover','saturation','scale','setupdraw','shapeprimitives','translate','truefalse','variables','widthheight']
-INTERMEDIATE_EXAMPLES = ['accelerationwithvectors','additivewave','arraylistclass','arrayobjects','bouncybubbles','chain','circlecollision','compositeobjects','creategraphics','createimage','handles','inheritance','noisewave','multipleconstructors','movingoncurves','mandelbrot','polartocartesian','pulses','reach1','reach2','reach3','recursion','regularpolygon','sine','sinecosine','sinewave','spring','star','storinginput','tickle','trianglestrip','vectormath']
-ADVANCED_EXAMPLES = ['flocking','morph','reflection1','reflection2','springs']
-WHITELIST = BEGINNER_EXAMPLES + INTERMEDIATE_EXAMPLES + ADVANCED_EXAMPLES
+EXAMPLES = {
+    'beginner': ['bounce','bouncingball','button','conditionals1','conditionals2','continuouslines','coordinates','distance1d','distance2d','embeddediteration','functions','hue','incrementdecrement','integersfloats','iteration','keyboard','linear','mousesignals','mousepress','mousefunctions','mouse2d','mouse1d','pattern','pointslines','rollover','saturation','scale','setupdraw','shapeprimitives','translate','truefalse','variables','widthheight'],
+    'intermediate': ['arctangent','arm','array','array2d','bezier','brownian','charactersstrings','clock','colorvariables','constrain','datatypeconversion','doublerandom','easing','follow1','follow2','follow3','interpolate','keyboardfunctions','lineargradient','logicaloperators','noise1d','map','loop','noloop','operatorprecedence','piechart','radialgradient','random','randomgaussian','redraw'],
+    'advanced': ['accelerationwithvectors','additivewave','arraylistclass','bouncingball','arrayobjects','bouncybubbles','chain','circlecollision','compositeobjects','creategraphics','createimage','handles','inheritance','noisewave','multipleconstructors','movingoncurves','mandelbrot','polartocartesian','pulses','reach1','reach2','reach3','recursion','regularpolygon','sine','sinecosine','sinewave','spring','star','storinginput','tickle','trianglestrip','vectormath'],
+    'expert': ['flocking','morph','reflection1','reflection2','springs']
+}
+
+WHITELIST = sum(EXAMPLES.values(), [])  # collect all examples into one list
 examples_list = [ref for ref in examples_list if ref.slug in WHITELIST]
 for example in examples_list:
-    if example.slug in BEGINNER_EXAMPLES:
-        example.difficulty = 'beginner'
-    elif example.slug in INTERMEDIATE_EXAMPLES:
-        example.difficulty = 'intermediate'
-    elif example.slug in ADVANCED_EXAMPLES:
-        example.difficulty = 'advanced'
+    for category, examples_by_cateogry in EXAMPLES.items():
+        if example.slug in examples_by_cateogry:
+            example.difficulty = category
+            continue
 
 
 # generate the example text and code

@@ -3,7 +3,7 @@ layout: example
 title: No Loop.
 summary: No Loop
 slug: noloop
-difficulty: beginner
+difficulty: intermediate
 code: noloop.pde
 source: https://processing.org/examples/noloop.html
 ---

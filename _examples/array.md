@@ -3,7 +3,7 @@ layout: example
 title: Array.
 summary: Array
 slug: array
-difficulty: beginner
+difficulty: intermediate
 code: array.pde
 source: https://processing.org/examples/array.html
 ---

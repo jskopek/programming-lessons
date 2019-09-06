@@ -5,7 +5,7 @@ summary: Operator Precedence
 
  If you don't explicitly state the order in which an expression is evaluated, they are evaluated based on the operator precedence
 slug: operatorprecedence
-difficulty: beginner
+difficulty: intermediate
 code: operatorprecedence.pde
 source: https://processing.org/examples/operatorprecedence.html
 ---

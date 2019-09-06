@@ -3,7 +3,7 @@ layout: example
 title: Additive Wave
 summary: Additive Wave by Daniel Shiffman
 slug: additivewave
-difficulty: intermediate
+difficulty: advanced
 code: additivewave.pde
 source: https://processing.org/examples/additivewave.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Loop.
 summary: Loop
 slug: loop
-difficulty: beginner
+difficulty: intermediate
 code: loop.pde
 source: https://processing.org/examples/loop.html
 ---

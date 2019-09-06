@@ -3,7 +3,7 @@ layout: example
 title: The Mandelbrot Set
 summary: The Mandelbrot Set by Daniel Shiffman
 slug: mandelbrot
-difficulty: intermediate
+difficulty: advanced
 code: mandelbrot.pde
 source: https://processing.org/examples/mandelbrot.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Recursion.
 summary: Recursion
 slug: recursion
-difficulty: intermediate
+difficulty: advanced
 code: recursion.pde
 source: https://processing.org/examples/recursion.html
 ---

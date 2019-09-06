@@ -3,7 +3,7 @@ layout: example
 title: Morph.
 summary: Morph
 slug: morph
-difficulty: advanced
+difficulty: expert
 code: morph.pde
 source: https://processing.org/examples/morph.html
 ---

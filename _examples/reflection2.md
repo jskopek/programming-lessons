@@ -3,7 +3,7 @@ layout: example
 title: Non-orthogonal Collision with Multiple Ground Segments
 summary: Non-orthogonal Collision with Multiple Ground Segments by Ira Greenberg
 slug: reflection2
-difficulty: advanced
+difficulty: expert
 code: reflection2.pde
 source: https://processing.org/examples/reflection2.html
 ---

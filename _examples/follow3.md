@@ -3,7 +3,7 @@ layout: example
 title: Follow 3
 summary: Follow 3 based on code from Keith Peters
 slug: follow3
-difficulty: beginner
+difficulty: intermediate
 code: follow3.pde
 source: https://processing.org/examples/follow3.html
 ---

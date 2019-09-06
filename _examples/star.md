@@ -5,7 +5,7 @@ summary: Star
 
  The star() function created for this example is capable of drawing a wide range of different forms
 slug: star
-difficulty: intermediate
+difficulty: advanced
 code: star.pde
 source: https://processing.org/examples/star.html
 ---

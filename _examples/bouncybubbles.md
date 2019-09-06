@@ -3,7 +3,7 @@ layout: example
 title: Bouncy Bubbles
 summary: Bouncy Bubbles based on code from Keith Peters
 slug: bouncybubbles
-difficulty: intermediate
+difficulty: advanced
 code: bouncybubbles.pde
 source: https://processing.org/examples/bouncybubbles.html
 ---

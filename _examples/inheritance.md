@@ -5,7 +5,7 @@ summary: Inheritance
 
  A class can be defined using another class as a foundation
 slug: inheritance
-difficulty: intermediate
+difficulty: advanced
 code: inheritance.pde
 source: https://processing.org/examples/inheritance.html
 ---

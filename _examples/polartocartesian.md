@@ -3,7 +3,7 @@ layout: example
 title: PolarToCartesian
 summary: PolarToCartesian by Daniel Shiffman
 slug: polartocartesian
-difficulty: intermediate
+difficulty: advanced
 code: polartocartesian.pde
 source: https://processing.org/examples/polartocartesian.html
 ---

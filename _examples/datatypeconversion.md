@@ -3,7 +3,7 @@ layout: example
 title: Datatype Conversion.
 summary: Datatype Conversion
 slug: datatypeconversion
-difficulty: beginner
+difficulty: intermediate
 code: datatypeconversion.pde
 source: https://processing.org/examples/datatypeconversion.html
 ---

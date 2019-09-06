@@ -3,7 +3,7 @@ layout: example
 title: Array Objects.
 summary: Array Objects
 slug: arrayobjects
-difficulty: intermediate
+difficulty: advanced
 code: arrayobjects.pde
 source: https://processing.org/examples/arrayobjects.html
 ---

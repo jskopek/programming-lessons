@@ -3,7 +3,7 @@ layout: example
 title: Array 2D.
 summary: Array 2D
 slug: array2d
-difficulty: beginner
+difficulty: intermediate
 code: array2d.pde
 source: https://processing.org/examples/array2d.html
 ---

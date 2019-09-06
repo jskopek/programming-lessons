@@ -5,7 +5,7 @@ summary: Multiple constructors
 
  A class can have multiple constructors that assign the fields in different ways
 slug: multipleconstructors
-difficulty: intermediate
+difficulty: advanced
 code: multipleconstructors.pde
 source: https://processing.org/examples/multipleconstructors.html
 ---

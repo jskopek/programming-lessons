@@ -3,7 +3,7 @@ layout: example
 title: Chain.
 summary: Chain
 slug: chain
-difficulty: intermediate
+difficulty: advanced
 code: chain.pde
 source: https://processing.org/examples/chain.html
 ---

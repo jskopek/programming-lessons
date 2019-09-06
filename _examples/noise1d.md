@@ -3,7 +3,7 @@ layout: example
 title: Noise1D.
 summary: Noise1D
 slug: noise1d
-difficulty: beginner
+difficulty: intermediate
 code: noise1d.pde
 source: https://processing.org/examples/noise1d.html
 ---

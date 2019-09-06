@@ -3,7 +3,7 @@ layout: example
 title: Keyboard Functions.
 summary: Keyboard Functions
 slug: keyboardfunctions
-difficulty: beginner
+difficulty: intermediate
 code: keyboardfunctions.pde
 source: https://processing.org/examples/keyboardfunctions.html
 ---

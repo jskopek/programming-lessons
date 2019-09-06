@@ -3,7 +3,7 @@ layout: example
 title: Sine Cosine.
 summary: Sine Cosine
 slug: sinecosine
-difficulty: intermediate
+difficulty: advanced
 code: sinecosine.pde
 source: https://processing.org/examples/sinecosine.html
 ---

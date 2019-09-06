@@ -3,7 +3,7 @@ layout: example
 title: Moving On Curves.
 summary: Moving On Curves
 slug: movingoncurves
-difficulty: intermediate
+difficulty: advanced
 code: movingoncurves.pde
 source: https://processing.org/examples/movingoncurves.html
 ---

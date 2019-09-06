@@ -5,7 +5,7 @@ summary: Regular Polygon
 
  What is your favorite? Pentagon? Hexagon? Heptagon? No? What about the icosagon? The polygon() function created for this example is capable of drawing any regular polygon
 slug: regularpolygon
-difficulty: intermediate
+difficulty: advanced
 code: regularpolygon.pde
 source: https://processing.org/examples/regularpolygon.html
 ---

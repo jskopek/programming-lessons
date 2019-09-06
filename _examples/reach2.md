@@ -3,7 +3,7 @@ layout: example
 title: Reach 2
 summary: Reach 2 based on code from Keith Peters
 slug: reach2
-difficulty: intermediate
+difficulty: advanced
 code: reach2.pde
 source: https://processing.org/examples/reach2.html
 ---

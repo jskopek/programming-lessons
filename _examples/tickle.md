@@ -3,7 +3,7 @@ layout: example
 title: Tickle.
 summary: Tickle
 slug: tickle
-difficulty: intermediate
+difficulty: advanced
 code: tickle.pde
 source: https://processing.org/examples/tickle.html
 ---

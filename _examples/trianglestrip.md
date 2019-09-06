@@ -3,7 +3,7 @@ layout: example
 title: Triangle Strip
 summary: Triangle Strip by Ira Greenberg
 slug: trianglestrip
-difficulty: intermediate
+difficulty: advanced
 code: trianglestrip.pde
 source: https://processing.org/examples/trianglestrip.html
 ---

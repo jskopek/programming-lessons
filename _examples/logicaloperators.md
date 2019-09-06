@@ -3,7 +3,7 @@ layout: example
 title: Logical Operators.
 summary: Logical Operators
 slug: logicaloperators
-difficulty: beginner
+difficulty: intermediate
 code: logicaloperators.pde
 source: https://processing.org/examples/logicaloperators.html
 ---

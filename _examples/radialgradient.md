@@ -3,7 +3,7 @@ layout: example
 title: Radial Gradient.
 summary: Radial Gradient
 slug: radialgradient
-difficulty: beginner
+difficulty: intermediate
 code: radialgradient.pde
 source: https://processing.org/examples/radialgradient.html
 ---

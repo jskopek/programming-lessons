@@ -3,7 +3,7 @@ layout: example
 title: Constrain.
 summary: Constrain
 slug: constrain
-difficulty: beginner
+difficulty: intermediate
 code: constrain.pde
 source: https://processing.org/examples/constrain.html
 ---

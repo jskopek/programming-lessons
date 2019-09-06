@@ -3,7 +3,7 @@ layout: example
 title: Pulses.
 summary: Pulses
 slug: pulses
-difficulty: intermediate
+difficulty: advanced
 code: pulses.pde
 source: https://processing.org/examples/pulses.html
 ---

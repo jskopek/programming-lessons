@@ -3,7 +3,7 @@ layout: example
 title: Create Graphics.
 summary: Create Graphics
 slug: creategraphics
-difficulty: intermediate
+difficulty: advanced
 code: creategraphics.pde
 source: https://processing.org/examples/creategraphics.html
 ---

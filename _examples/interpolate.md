@@ -3,7 +3,7 @@ layout: example
 title: Linear Interpolation.
 summary: Linear Interpolation
 slug: interpolate
-difficulty: beginner
+difficulty: intermediate
 code: interpolate.pde
 source: https://processing.org/examples/interpolate.html
 ---

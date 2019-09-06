@@ -3,7 +3,7 @@ layout: example
 title: Acceleration with Vectors
 summary: Acceleration with Vectors by Daniel Shiffman
 slug: accelerationwithvectors
-difficulty: intermediate
+difficulty: advanced
 code: accelerationwithvectors.pde
 source: https://processing.org/examples/accelerationwithvectors.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Noise Wave
 summary: Noise Wave by Daniel Shiffman
 slug: noisewave
-difficulty: intermediate
+difficulty: advanced
 code: noisewave.pde
 source: https://processing.org/examples/noisewave.html
 ---

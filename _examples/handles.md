@@ -3,7 +3,7 @@ layout: example
 title: Handles.
 summary: Handles
 slug: handles
-difficulty: intermediate
+difficulty: advanced
 code: handles.pde
 source: https://processing.org/examples/handles.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Redraw.
 summary: Redraw
 slug: redraw
-difficulty: beginner
+difficulty: intermediate
 code: redraw.pde
 source: https://processing.org/examples/redraw.html
 ---

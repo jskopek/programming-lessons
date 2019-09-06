@@ -3,7 +3,7 @@ layout: example
 title: Vector
 summary: Vector by Daniel Shiffman
 slug: vectormath
-difficulty: intermediate
+difficulty: advanced
 code: vectormath.pde
 source: https://processing.org/examples/vectormath.html
 ---

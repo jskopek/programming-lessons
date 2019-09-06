@@ -5,7 +5,7 @@ summary: Composite Objects
 
  An object can include several other objects
 slug: compositeobjects
-difficulty: intermediate
+difficulty: advanced
 code: compositeobjects.pde
 source: https://processing.org/examples/compositeobjects.html
 ---

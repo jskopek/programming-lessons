@@ -3,7 +3,7 @@ layout: example
 title: Arm.
 summary: Arm
 slug: arm
-difficulty: beginner
+difficulty: intermediate
 code: arm.pde
 source: https://processing.org/examples/arm.html
 ---

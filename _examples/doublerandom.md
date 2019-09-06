@@ -3,7 +3,7 @@ layout: example
 title: Double Random
 summary: Double Random by Ira Greenberg
 slug: doublerandom
-difficulty: beginner
+difficulty: intermediate
 code: doublerandom.pde
 source: https://processing.org/examples/doublerandom.html
 ---

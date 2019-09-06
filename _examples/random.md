@@ -3,7 +3,7 @@ layout: example
 title: Random.
 summary: Random
 slug: random
-difficulty: beginner
+difficulty: intermediate
 code: random.pde
 source: https://processing.org/examples/random.html
 ---

@@ -3,7 +3,7 @@ layout: example
 title: Create Image.
 summary: Create Image
 slug: createimage
-difficulty: intermediate
+difficulty: advanced
 code: createimage.pde
 source: https://processing.org/examples/createimage.html
 ---
