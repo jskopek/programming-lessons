@@ -72,7 +72,7 @@ And if we were subtracting one, instead of this:
 
 We could type this:
 
-```left—;```
+```left-—;```
 
 As you can see, programmers can be lazy sometimes. This can actually be a good thing! The less code we write, the less things can go wrong.
 
