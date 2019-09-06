@@ -9,7 +9,7 @@ void setup() {
 }
 void draw() {
     background(255);
-    circle(mouseX, mouseY, 50);
+    ellipse(mouseX, mouseY, 50, 50);
     text("Clicks: " + clicks, 100, 100, 100, 100);
     text("Time: " + time, 100, 130, 100, 100);
     time -= 1;
@@ -17,7 +17,7 @@ void draw() {
         time = 100;
         clicks = 0;
     }
-    circle(targetX, targetY, targetSize);
+    ellipse(targetX, targetY, targetSize, targetSize);
 }
 void mousePressed() {
     int targetRadius = targetSize / 2;
