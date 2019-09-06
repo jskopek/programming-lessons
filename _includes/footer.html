@@ -1,2 +1,30 @@
 <footer class="site-footer h-card">
 </footer>
+
+<script type="text/javascript">
+    // handle copy/paste button
+    document.querySelectorAll('.btn-copy').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+            e.preventDefault();
+            var buttonEl = e.currentTarget;
+            var codeUrl = buttonEl.dataset['codeUrl'];
+            var preEl = document.querySelector('pre[data-code-url="' + codeUrl + '"]');
+            var code = preEl.innerText;
+
+            buttonEl.querySelector('span').innerText = 'Copied!';
+            setTimeout(function() {
+                buttonEl.querySelector('span').innerText = 'Copy';
+            }, 1000);
+
+            var textEl = document.createElement('textarea');
+            //textEl.style.display = 'none';
+            document.body.appendChild(textEl);
+            textEl.value = code;
+            textEl.select()
+            document.execCommand('copy');
+            textEl.remove();
+        });
+    });
+</script>
+
+

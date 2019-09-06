@@ -93,11 +93,23 @@ a.alert {
         display: block;
         margin: 2em auto;
     }
-    pre, code, div.codeblock {
-        background-color: #fff8f5;
-        border: 1px solid #f5c0cd;
+}
+
+// code blocks
+pre, code, div.codeblock {
+    background-color: #fff8f5;
+    border: 1px solid #f5c0cd;
+}
+.code-buttons {
+    background-color: #ffeaef;
+    text-align: right;
+    padding: 0.3em 0.8em;
+    a {
+        font-weight: bold;
+        color: #000;
     }
 }
+// end code blocks
 
 .reference {
     .reference-meta {

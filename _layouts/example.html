@@ -10,10 +10,12 @@ layout: default
 
 {% if page.code %}
 {% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
-<pre>{{ source_code | xml_escape }}</pre>
+<div class="code-buttons"><a href="#" class="btn-copy" data-code-url="{{ code_url }}"><i class="fa fa-copy"></i> <span>Copy</span></a></div>
+<pre data-code-url="{{ code_url }}">{{ source_code | xml_escape }}</pre>
 {% endif %}
 
 
+{% if page.functions %}
 <h2>Functions Used</h2>
 {% assign functions = page.functions|split:',' %}
 {% for function in functions %}
@@ -35,8 +37,10 @@ layout: default
     {% endif %}
     {% endfor %}
 {% endfor %}
+{% endif %}
 
 
+{% comment %}
 {% if page.collection %}
     {% assign links = site[page.collection]  %}
 {% endif %}
@@ -57,3 +61,4 @@ layout: default
 	<li>{% if prev %}<a href="{{ prev.url}}">&lt; {{ prev.title }}</a>{% endif %}</li>
 	<li>{% if next %}<a href="{{ next.url}}">{{ next.title }} &gt;</a>{% endif %}</li>
 </ul>
+{% endcomment %}

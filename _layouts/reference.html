@@ -25,8 +25,8 @@ layout: default
     <div class="flex-grow-1 mr-4">
         <h5>Code:</h5>
         {% capture source_code %}{% include_relative {{ page.code }} %}{% endcapture %}
-        <pre>{{ source_code | xml_escape }}</pre>
-        {% endif %}
+        <div class="code-buttons"><a href="#" class="btn-copy" data-code-url="{{ code_url }}"><i class="fa fa-copy"></i> <span>Copy</span></a></div>
+        <pre data-code-url="{{ code_url }}">{{ source_code | xml_escape }}</pre>
     </div>
 
     <div>
@@ -34,3 +34,4 @@ layout: default
         <canvas data-processing-sources="{{ page.code }}"></canvas>
     </div>
 </div>
+{% endif %}

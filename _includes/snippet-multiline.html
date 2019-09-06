@@ -1,7 +1,8 @@
 {% if include.code %}
 {% assign code_url = include.code %}
 {% capture source_code %}{% include_relative {{ code_url }} %}{% endcapture %}
-<pre>{{ source_code | xml_escape }}</pre>
+<div class="code-buttons"><a href="#" class="btn-copy" data-code-url="{{ code_url }}"><i class="fa fa-copy"></i> <span>Copy</span></a></div>
+<pre data-code-url="{{ code_url }}">{{ source_code | xml_escape }}</pre>
 {% endif %}
 
 Now press the <strong><i class="fa fa-play"></i> Play</strong> button. You should see this on your screen:

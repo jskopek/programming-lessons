@@ -4,13 +4,17 @@
         {% if include.code %}
         {% assign code_url = include.code %}
         {% capture source_code %}{% include_relative {{ code_url }} %}{% endcapture %}
+        <div class="code-buttons"><a href="#" class="btn-copy" data-code-url="{{ code_url }}"><i class="fa fa-copy"></i> <span>Copy</span></a></div>
+        <pre data-code-url="{{ code_url }}">{{ source_code | xml_escape }}</pre>
 
+        {% comment %}
         {% assign lines = source_code|split:"\n" %}
         {% assign adds = include.add|split:',' %}
         {% assign subs = include.sub|split:',' %}
         <div class="codeblock">
             {% for line in lines %}{% capture index_string %}{{ forloop.index }}{% endcapture %}<div class="{% if adds contains index_string %}add{% endif %}{% if subs contains index_string %}sub{% endif %}">{{ line }}</div>{% endfor %}
         </div>
+        {% endcomment %}
         {% endif %}
     </div>
 
