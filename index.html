@@ -22,24 +22,6 @@ class: homepage
 </div>
 
 <div class="wrapper">
-    <h1>Books</h1> <p>Download a PDF copy of the lessons</p>
-    <div class="books">
-        <div>
-            <a class="book" href="/assets/pdf/Lessons.pdf">
-                <img src="/assets/images/book.png"/>
-                All lessons (PDF)
-            </a> 
-            <a href="/lessons/print">(HTML)</a>
-        </div>
-        <div>
-            <a class="book" href="/assets/pdf/InstructorWorksheet.pdf">
-                <img src="/assets/images/instructors-worksheet.png"/>
-                Instructor worksheet (PDF)
-            </a> 
-            <a href="/lessons/worksheet">(HTML)</a>
-        </div>
-    </div>
-
     <h1>Examples</h1>
     <p>Use these example Processing programs to learn more about processing</p>
     <div class="d-flex justify-content-between">
@@ -71,6 +53,24 @@ class: homepage
             {% endfor %}
         </table>
     {% endfor %}
+
+    <h1>Books</h1> <p>Download a PDF copy of the lessons</p>
+    <div class="books">
+        <div>
+            <a class="book" href="/assets/pdf/Lessons.pdf">
+                <img src="/assets/images/book.png"/>
+                All lessons (PDF)
+            </a> 
+            <a href="/lessons/print">(HTML)</a>
+        </div>
+        <div>
+            <a class="book" href="/assets/pdf/InstructorWorksheet.pdf">
+                <img src="/assets/images/instructors-worksheet.png"/>
+                Instructor worksheet (PDF)
+            </a> 
+            <a href="/lessons/worksheet">(HTML)</a>
+        </div>
+    </div>
 </div>
 <script type="text/javascript">
     document.querySelectorAll('.lesson-picker').forEach(function(el) {
