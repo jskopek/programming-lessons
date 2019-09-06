@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title:  "Let's make a game"
-lesson_number: 14
+lesson_number: 15
 ---
 
 Today we are going to learn how to make this game:
