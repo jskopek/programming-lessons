@@ -20,11 +20,17 @@ If we want to change each face, we will need to copy and paste the line of code 
 
 Luckily, programmers have found a way to make this easier by using something called *functions*. A function lets us group a bunch of code together, give it a name, and run it super easily.
 
- **drawing with four separate functions looking other ways, then all functions hugging each other and saying “we make a face!”***
+Right now, the four functions that make up a face are independent and don't know anything about each other. If you make a change to one face, the other faces won't change.
+
+![Independent functions](/assets/images/functions-1.png)
+
+When we write a custom function, we can group them together:
+
+![Functions grouped in a function](/assets/images/functions-2.png)
 
 Before we can make a function, we need to think of a name for it. We need to use the same rules when we name a function as we do when we name a variable, so we can’t have spaces or numbers.
 
-{% include exercise.html content="Think of a name for our face function." %}
+{% include tip.html content="There is no rule for what we need to call our functions, so use whatever makes sense to you. For example, *face*, *drawAFace*, *makeAHead*, and *roundThingAtTheTopOfYourBody* would all be valid function names. In general, the best function names are short but descriptive." %}
 
 Once we have a name, we create our function by typing this:
 
@@ -37,26 +43,30 @@ We start by naming our function. To do this, we type ```void``` followed by the 
 
 {% include code.html code="void face" %}
 
-The next part is the list of arguments. We’re going to leave this blank for now, so we will just type *()*. Our code will now look like this:
+The next part is the list of arguments. Arguments are all the variables we use inside of our function. We use the ```int left``` and ```int eyeSize``` variables, so we have to write the following for the arguments: ```(int left, int eyeSize)```. Our code will now look like this:
 
-{% include code.html code="void face()" %}
+{% include code.html code="void face(int left, int eyeSize)" %}
 
 Finally, we need a space to put the code that will be run inside the function. Remember - the job of a function is to let us group code together an run it easily, and to do that we need a place to put the code.
  We do this by writing two letters, ```{``` and ```}```. The code we want to run goes between these letters, like so:
 
-{% include code.html code="void face() {\n  *code goes here*\n}" %}
+{% include code.html code="void face(int left, int eyeSize) {\n  *code goes here*\n}" %}
 
 So our face program would look a bit like this:
 
-{% include code.html code="void face() {\n    ellipse(left + 5,30,eyeSize,eyeSize);\n    ellipse(left + 50,30,eyeSize,eyeSize);\n    triangle(left + 30, 40, left + 25, 50, left + 35, 50);\n    rect(left,60,60,20);\n}" %}
+{% include code.html code="void face(int left, int eyeSize) {\n    ellipse(left + 5,30,eyeSize,eyeSize);\n    ellipse(left + 50,30,eyeSize,eyeSize);\n    triangle(left + 30, 40, left + 25, 50, left + 35, 50);\n    rect(left,60,60,20);\n}" %}
+
+![Functions grouped in a function](/assets/images/functions-3.png)
 
 We’ve just created our first function! To run it, we would type this:
 
-```face();```
+```face(left, eyeSize);```
 
 ... and we will draw a face
 
 {% include snippet.html code="functions-4.pde" %}
+
+{% include tip.html content="Woah, this code looks super different! What is this *void setup() { ...* thing?? When we start using functions, we need to put all of our code in functions. The *setup()* function is new, but don't worry - we will talk about it very soon!" %}
 
 If we want to draw two faces, we would just type this:
 
