@@ -91,7 +91,10 @@ def parse_reference_folder(folder_path):
         reference = Reference(filename=out_filename)
         for row in soup.find_all('tr'):
             section = row.th.text
-            content = row.td.text
+            if section.lower() == 'examples':
+                content = row.td.div.text
+            else:
+                content = row.td.text
             setattr(reference, section.lower(), content)
 
         if not reference.name:
