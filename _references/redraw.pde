@@ -15,4 +15,3 @@ void mousePressed() {
   x += 1;
   redraw();
 }
-

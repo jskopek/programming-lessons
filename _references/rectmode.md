@@ -3,7 +3,7 @@ layout: reference
 title: rectMode()
 summary: Modifies the location from which rectangles are drawn by changing the way in which parameters given to rect() are intepreted
 slug: rectmode
-difficulty: intermediate
+difficulty: None
 category: Shape
 section: Attributes
 code: rectmode.pde

@@ -3,7 +3,7 @@ layout: reference
 title: noFill()
 summary: Disables filling geometry
 slug: nofill
-difficulty: beginner
+difficulty: None
 category: Color
 section: Setting
 code: nofill.pde

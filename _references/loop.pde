@@ -22,4 +22,3 @@ void mousePressed() {
 void mouseReleased() {
   noLoop();  // Releasing the mouse stops looping draw()
 }
-

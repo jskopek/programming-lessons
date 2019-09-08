@@ -3,7 +3,7 @@ layout: reference
 title: noLoop()
 summary: Stops Processing from continuously executing the code within draw()
 slug: noloop
-difficulty: intermediate
+difficulty: None
 category: Structure
 code: noloop.pde
 ---

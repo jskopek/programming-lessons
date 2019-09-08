@@ -3,7 +3,7 @@ layout: reference
 title: frameRate
 summary: The system variable frameRate contains the approximate frame rate of a running sketch
 slug: framerate
-difficulty: intermediate
+difficulty: None
 category: Environment
 code: framerate.pde
 ---

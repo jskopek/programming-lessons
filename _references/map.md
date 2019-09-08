@@ -3,7 +3,7 @@ layout: reference
 title: map()
 summary: Re-maps a number from one range to another
 slug: map
-difficulty: intermediate
+difficulty: beginner
 category: Math
 section: Calculation
 code: map.pde

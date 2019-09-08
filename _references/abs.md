@@ -3,7 +3,7 @@ layout: reference
 title: abs()
 summary: Calculates the absolute value (magnitude) of a number
 slug: abs
-difficulty: intermediate
+difficulty: beginner
 category: Math
 section: Calculation
 code: abs.pde
