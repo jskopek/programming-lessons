@@ -6,6 +6,7 @@
 from dataclasses import dataclass
 from slugify import slugify
 from bs4 import BeautifulSoup
+import re
 import os
 
 
@@ -17,6 +18,13 @@ class Example:
     difficulty: str = None
     name: str = None
     code: str = None
+
+    @property
+    def functions(self):
+        pattern = '([\\w-]+)\\('
+        functions = re.findall(pattern, self.code)
+        functions = set(functions)
+        return functions
 
     @property
     def slug(self):
@@ -34,6 +42,7 @@ summary: {self.summary}
 slug: {self.slug}
 difficulty: {self.difficulty}
 code: {self.slug}.pde
+functions: {', '.join(self.functions)}
 source: https://processing.org/examples/{self.slug}.html
 ---
 
