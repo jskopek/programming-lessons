@@ -5,6 +5,7 @@ summary: Mouse 2D
 slug: mouse2d
 difficulty: beginner
 code: mouse2d.pde
+functions: fill, size, rectMode, rect, setup, draw, noStroke, background
 source: https://processing.org/examples/mouse2d.html
 ---
 

@@ -5,6 +5,7 @@ summary: Setup and Draw
 slug: setupdraw
 difficulty: beginner
 code: setupdraw.pde
+functions: stroke, size, setup, frameRate, draw, line, background
 source: https://processing.org/examples/setupdraw.html
 ---
 

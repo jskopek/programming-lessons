@@ -7,6 +7,7 @@ summary: Pie Chart
 slug: piechart
 difficulty: intermediate
 code: piechart.pde
+functions: fill, size, setup, pieChart, map, noLoop, draw, radians, noStroke, arc, background
 source: https://processing.org/examples/piechart.html
 ---
 

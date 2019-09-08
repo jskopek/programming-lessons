@@ -5,6 +5,7 @@ summary: Chain
 slug: chain
 difficulty: advanced
 code: chain.pde
+functions: fill, stroke, size, ellipse, Spring2D, display, setup, update, draw, noStroke, line, background
 source: https://processing.org/examples/chain.html
 ---
 

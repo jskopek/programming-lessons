@@ -5,6 +5,7 @@ summary: Characters Strings
 slug: charactersstrings
 difficulty: intermediate
 code: charactersstrings.pde
+functions: textSize, size, println, length, setup, text, textFont, keyTyped, draw, createFont, background
 source: https://processing.org/examples/charactersstrings.html
 ---
 

@@ -5,6 +5,7 @@ summary: Conditionals 2
 slug: conditionals2
 difficulty: beginner
 code: conditionals2.pde
+functions: stroke, size, line, background
 source: https://processing.org/examples/conditionals2.html
 ---
 

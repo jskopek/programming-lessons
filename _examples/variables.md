@@ -5,6 +5,7 @@ summary: Variables
 slug: variables
 difficulty: beginner
 code: variables.pde
+functions: stroke, size, strokeCap, strokeWeight, line, background
 source: https://processing.org/examples/variables.html
 ---
 

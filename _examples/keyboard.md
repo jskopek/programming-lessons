@@ -5,6 +5,7 @@ summary: Keyboard
 slug: keyboard
 difficulty: beginner
 code: keyboard.pde
+functions: fill, size, rect, setup, map, keyPressed, draw, noStroke, millis, background
 source: https://processing.org/examples/keyboard.html
 ---
 

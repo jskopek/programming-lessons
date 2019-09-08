@@ -7,6 +7,7 @@ summary: Inheritance
 slug: inheritance
 difficulty: advanced
 code: inheritance.pde
+functions: ellipse, popMatrix, rotate, SpinArm, super, size, display, update, line, stroke, setup, strokeWeight, Spin, SpinSpots, translate, draw, background, pushMatrix, noStroke
 source: https://processing.org/examples/inheritance.html
 ---
 

@@ -5,6 +5,7 @@ summary: Morph
 slug: morph
 difficulty: expert
 code: morph.pde
+functions: fromAngle, radians, size, stroke, vertex, get, setup, strokeWeight, beginShape, lerp, translate, draw, noFill, mult, add, endShape, background, PVector, dist
 source: https://processing.org/examples/morph.html
 ---
 

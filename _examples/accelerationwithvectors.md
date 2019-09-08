@@ -5,6 +5,7 @@ summary: Acceleration with Vectors by Daniel Shiffman
 slug: accelerationwithvectors
 difficulty: advanced
 code: accelerationwithvectors.pde
+functions: fill, setMag, size, stroke, sub, ellipse, display, setup, strokeWeight, update, draw, limit, Mover, add, PVector, background
 source: https://processing.org/examples/accelerationwithvectors.html
 ---
 

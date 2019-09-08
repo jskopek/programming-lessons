@@ -5,6 +5,7 @@ summary: Keyboard Functions
 slug: keyboardfunctions
 difficulty: intermediate
 code: keyboardfunctions.pde
+functions: fill, size, if, rect, setup, color, keyPressed, colorMode, draw, for, noStroke, background
 source: https://processing.org/examples/keyboardfunctions.html
 ---
 

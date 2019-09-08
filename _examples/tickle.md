@@ -5,6 +5,7 @@ summary: Tickle
 slug: tickle
 difficulty: advanced
 code: tickle.pde
+functions: fill, textWidth, size, abs, textAlign, setup, rect, random, text, textFont, textAscent, draw, noStroke, createFont, textDescent
 source: https://processing.org/examples/tickle.html
 ---
 

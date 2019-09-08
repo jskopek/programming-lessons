@@ -5,6 +5,7 @@ summary: Map
 slug: map
 difficulty: intermediate
 code: map.pde
+functions: fill, size, ellipse, setup, map, draw, noStroke, background
 source: https://processing.org/examples/map.html
 ---
 

@@ -5,6 +5,7 @@ summary: Scale by Denis Grutze
 slug: scale
 difficulty: beginner
 code: scale.pde
+functions: fill, size, rectMode, scale, setup, cos, rect, frameRate, translate, draw, noStroke, background
 source: https://processing.org/examples/scale.html
 ---
 

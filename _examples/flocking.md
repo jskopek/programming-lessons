@@ -5,6 +5,7 @@ summary: Flocking by Daniel Shiffman
 slug: flocking
 difficulty: expert
 code: flocking.pde
+functions: Flock, Boid, run, sub, align, popMatrix, rotate, radians, limit, mag, flock, normalize, div, fill, setMag, size, random2D, render, cos, update, random, heading2D, addBoid, applyForce, stroke, vertex, cohesion, sin, heading, beginShape, setup, borders, translate, draw, mousePressed, mult, add, endShape, background, pushMatrix, separate, seek, PVector, dist
 source: https://processing.org/examples/flocking.html
 ---
 

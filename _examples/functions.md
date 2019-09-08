@@ -5,6 +5,7 @@ summary: Functions
 slug: functions
 difficulty: beginner
 code: functions.pde
+functions: fill, size, ellipse, setup, noLoop, draw, noStroke, drawTarget, background
 source: https://processing.org/examples/functions.html
 ---
 

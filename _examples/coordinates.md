@@ -5,6 +5,7 @@ summary: Coordinates
 slug: coordinates
 difficulty: beginner
 code: coordinates.pde
+functions: stroke, size, point, rect, noFill, line, background
 source: https://processing.org/examples/coordinates.html
 ---
 

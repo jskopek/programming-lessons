@@ -5,6 +5,7 @@ summary: Distance 2D
 slug: distance2d
 difficulty: beginner
 code: distance2d.pde
+functions: size, ellipse, setup, draw, for, noStroke, background, dist
 source: https://processing.org/examples/distance2d.html
 ---
 

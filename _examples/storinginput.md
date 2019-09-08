@@ -5,6 +5,7 @@ summary: Storing Input
 slug: storinginput
 difficulty: advanced
 code: storinginput.pde
+functions: fill, size, ellipse, setup, draw, noStroke, background
 source: https://processing.org/examples/storinginput.html
 ---
 

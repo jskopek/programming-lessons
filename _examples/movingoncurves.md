@@ -5,6 +5,7 @@ summary: Moving On Curves
 slug: movingoncurves
 difficulty: advanced
 code: movingoncurves.pde
+functions: fill, pow, size, ellipse, rect, setup, draw, mousePressed, noStroke
 source: https://processing.org/examples/movingoncurves.html
 ---
 

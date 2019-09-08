@@ -5,6 +5,7 @@ summary: No Loop
 slug: noloop
 difficulty: intermediate
 code: noloop.pde
+functions: stroke, size, setup, noLoop, draw, line, background
 source: https://processing.org/examples/noloop.html
 ---
 

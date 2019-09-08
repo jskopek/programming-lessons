@@ -5,6 +5,7 @@ summary: Array 2D
 slug: array2d
 difficulty: intermediate
 code: array2d.pde
+functions: stroke, size, point, setup, strokeWeight, noLoop, draw, background, dist
 source: https://processing.org/examples/array2d.html
 ---
 

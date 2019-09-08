@@ -7,6 +7,7 @@ summary: Multiple constructors
 slug: multipleconstructors
 difficulty: advanced
 code: multipleconstructors.pde
+functions: size, ellipse, display, setup, noLoop, draw, Spot, background
 source: https://processing.org/examples/multipleconstructors.html
 ---
 

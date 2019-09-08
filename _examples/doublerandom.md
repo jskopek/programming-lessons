@@ -5,6 +5,7 @@ summary: Double Random by Ira Greenberg
 slug: doublerandom
 difficulty: intermediate
 code: doublerandom.pde
+functions: stroke, size, point, setup, frameRate, random, draw, background
 source: https://processing.org/examples/doublerandom.html
 ---
 

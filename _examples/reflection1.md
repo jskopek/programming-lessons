@@ -5,6 +5,7 @@ summary: Non-orthogonal Reflection by Ira Greenberg
 slug: reflection1
 difficulty: expert
 code: reflection1.pde
+functions: sub, ellipse, set, normalize, fill, size, random2D, rect, random, dot, line, stroke, setup, draw, mult, add, ceil, quad, noStroke, PVector, createGround, dist
 source: https://processing.org/examples/reflection1.html
 ---
 

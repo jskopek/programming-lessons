@@ -5,6 +5,7 @@ summary: Hue
 slug: hue
 difficulty: beginner
 code: hue.pde
+functions: fill, size, rect, setup, colorMode, draw, noStroke, background
 source: https://processing.org/examples/hue.html
 ---
 

@@ -5,6 +5,7 @@ summary: Create Graphics
 slug: creategraphics
 difficulty: advanced
 code: creategraphics.pde
+functions: fill, stroke, size, ellipse, createGraphics, rect, setup, endDraw, draw, beginDraw, noFill, noStroke, image, background
 source: https://processing.org/examples/creategraphics.html
 ---
 

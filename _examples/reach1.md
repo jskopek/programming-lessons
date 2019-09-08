@@ -5,6 +5,7 @@ summary: Reach 1 based on code from Keith Peters
 slug: reach1
 difficulty: advanced
 code: reach1.pde
+functions: stroke, size, pushMatrix, sin, popMatrix, setup, strokeWeight, cos, rotate, translate, draw, segment, atan2, line, background
 source: https://processing.org/examples/reach1.html
 ---
 

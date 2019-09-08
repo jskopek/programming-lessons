@@ -5,6 +5,7 @@ summary: Points and Lines
 slug: pointslines
 difficulty: beginner
 code: pointslines.pde
+functions: stroke, size, point, noSmooth, translate, line, background
 source: https://processing.org/examples/pointslines.html
 ---
 

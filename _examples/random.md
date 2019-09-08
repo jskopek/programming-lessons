@@ -5,6 +5,7 @@ summary: Random
 slug: random
 difficulty: intermediate
 code: random.pde
+functions: stroke, size, setup, strokeWeight, frameRate, random, draw, line, background
 source: https://processing.org/examples/random.html
 ---
 

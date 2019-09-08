@@ -5,6 +5,7 @@ summary: Arctangent
 slug: arctangent
 difficulty: intermediate
 code: arctangent.pde
+functions: fill, size, ellipse, pushMatrix, display, popMatrix, setup, update, rotate, translate, Eye, draw, noStroke, atan2, background
 source: https://processing.org/examples/arctangent.html
 ---
 

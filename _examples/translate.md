@@ -5,6 +5,7 @@ summary: Translate
 slug: translate
 difficulty: beginner
 code: translate.pde
+functions: fill, size, rect, setup, translate, draw, noStroke, background
 source: https://processing.org/examples/translate.html
 ---
 

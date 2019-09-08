@@ -7,6 +7,7 @@ summary: Operator Precedence
 slug: operatorprecedence
 difficulty: intermediate
 code: operatorprecedence.pde
+functions: stroke, size, if, rect, noFill, for, line, background
 source: https://processing.org/examples/operatorprecedence.html
 ---
 

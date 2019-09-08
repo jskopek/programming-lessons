@@ -5,6 +5,7 @@ summary: Mouse 1D
 slug: mouse1d
 difficulty: beginner
 code: mouse1d.pde
+functions: fill, size, rectMode, rect, setup, map, colorMode, draw, noStroke, background
 source: https://processing.org/examples/mouse1d.html
 ---
 

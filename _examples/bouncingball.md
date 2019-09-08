@@ -5,6 +5,7 @@ summary: Bouncing Ball with Vectors by Daniel Shiffman
 slug: bouncingball
 difficulty: advanced
 code: bouncingball.pde
+functions: fill, stroke, size, ellipse, setup, strokeWeight, draw, add, PVector, background
 source: https://processing.org/examples/bouncingball.html
 ---
 

@@ -5,6 +5,7 @@ summary: Array
 slug: array
 difficulty: intermediate
 code: array.pde
+functions: abs, stroke, size, map, setup, cos, noLoop, draw, line, background
 source: https://processing.org/examples/array.html
 ---
 

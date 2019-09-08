@@ -5,6 +5,7 @@ summary: Constrain
 slug: constrain
 difficulty: intermediate
 code: constrain.pde
+functions: abs, fill, size, ellipse, rectMode, constrain, setup, rect, draw, noStroke, ellipseMode, background
 source: https://processing.org/examples/constrain.html
 ---
 

@@ -5,6 +5,7 @@ summary: Vector by Daniel Shiffman
 slug: vectormath
 difficulty: advanced
 code: vectormath.pde
+functions: stroke, size, sub, setup, strokeWeight, translate, draw, mult, normalize, PVector, line, background
 source: https://processing.org/examples/vectormath.html
 ---
 

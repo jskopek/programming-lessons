@@ -5,6 +5,7 @@ summary: Rollover
 slug: rollover
 difficulty: beginner
 code: rollover.pde
+functions: fill, stroke, size, if, ellipse, overCircle, overRect, rect, setup, update, color, draw, sq, noStroke, ellipseMode, sqrt, background
 source: https://processing.org/examples/rollover.html
 ---
 

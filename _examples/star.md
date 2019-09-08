@@ -7,6 +7,7 @@ summary: Star
 slug: star
 difficulty: advanced
 code: star.pde
+functions: size, vertex, pushMatrix, sin, popMatrix, setup, beginShape, rotate, cos, star, translate, draw, endShape, background
 source: https://processing.org/examples/star.html
 ---
 

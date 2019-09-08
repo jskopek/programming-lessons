@@ -5,6 +5,7 @@ summary: Color Variables (Homage to Albers)
 slug: colorvariables
 difficulty: intermediate
 code: colorvariables.pde
+functions: fill, size, pushMatrix, rect, popMatrix, color, translate, noStroke, background
 source: https://processing.org/examples/colorvariables.html
 ---
 

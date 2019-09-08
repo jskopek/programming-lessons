@@ -5,6 +5,7 @@ summary: Button
 slug: button
 difficulty: beginner
 code: button.pde
+functions: fill, stroke, size, overCircle, ellipse, overRect, rect, setup, update, color, draw, mousePressed, sq, ellipseMode, sqrt, background
 source: https://processing.org/examples/button.html
 ---
 

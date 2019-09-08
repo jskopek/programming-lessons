@@ -5,6 +5,7 @@ summary: Easing
 slug: easing
 difficulty: intermediate
 code: easing.pde
+functions: size, ellipse, setup, draw, noStroke, background
 source: https://processing.org/examples/easing.html
 ---
 

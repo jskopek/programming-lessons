@@ -5,6 +5,7 @@ summary: Mouse Press
 slug: mousepress
 difficulty: beginner
 code: mousepress.pde
+functions: fill, stroke, size, setup, noSmooth, draw, line, background
 source: https://processing.org/examples/mousepress.html
 ---
 

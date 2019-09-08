@@ -5,6 +5,7 @@ summary: Datatype Conversion
 slug: datatypeconversion
 difficulty: intermediate
 code: datatypeconversion.pde
+functions: size, println, int, text, textFont, byte, noStroke, createFont, float, background
 source: https://processing.org/examples/datatypeconversion.html
 ---
 

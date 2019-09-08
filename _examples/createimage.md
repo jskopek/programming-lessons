@@ -5,6 +5,7 @@ summary: Create Image
 slug: createimage
 difficulty: advanced
 code: createimage.pde
+functions: size, map, setup, color, draw, for, createImage, image, background
 source: https://processing.org/examples/createimage.html
 ---
 

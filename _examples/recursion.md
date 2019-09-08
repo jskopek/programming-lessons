@@ -5,6 +5,7 @@ summary: Recursion
 slug: recursion
 difficulty: advanced
 code: recursion.pde
+functions: fill, size, if, drawCircle, ellipse, setup, noLoop, draw, noStroke
 source: https://processing.org/examples/recursion.html
 ---
 

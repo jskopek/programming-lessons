@@ -5,6 +5,7 @@ summary: Loop
 slug: loop
 difficulty: intermediate
 code: loop.pde
+functions: stroke, size, setup, noLoop, draw, loop, mousePressed, line, background
 source: https://processing.org/examples/loop.html
 ---
 

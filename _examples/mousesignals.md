@@ -5,6 +5,7 @@ summary: Mouse Signals
 slug: mousesignals
 difficulty: beginner
 code: mousesignals.pde
+functions: fill, stroke, size, rect, setup, point, noSmooth, map, draw, for, noStroke, line, background
 source: https://processing.org/examples/mousesignals.html
 ---
 

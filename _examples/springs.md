@@ -5,6 +5,7 @@ summary: Springs
 slug: springs
 difficulty: expert
 code: springs.pde
+functions: fill, size, ellipse, overEvent, display, setup, otherOver, update, mouseReleased, draw, mousePressed, sq, Spring, noStroke, pressed, released, sqrt, background
 source: https://processing.org/examples/springs.html
 ---
 

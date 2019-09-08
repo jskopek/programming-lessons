@@ -5,6 +5,7 @@ summary: True/False
 slug: truefalse
 difficulty: beginner
 code: truefalse.pde
+functions: stroke, size, line, background
 source: https://processing.org/examples/truefalse.html
 ---
 

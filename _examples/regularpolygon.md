@@ -7,6 +7,7 @@ summary: Regular Polygon
 slug: regularpolygon
 difficulty: advanced
 code: regularpolygon.pde
+functions: polygon, size, vertex, pushMatrix, sin, popMatrix, setup, beginShape, rotate, cos, translate, draw, endShape, background
 source: https://processing.org/examples/regularpolygon.html
 ---
 

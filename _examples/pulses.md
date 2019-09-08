@@ -5,6 +5,7 @@ summary: Pulses
 slug: pulses
 difficulty: advanced
 code: pulses.pde
+functions: fill, size, ellipse, sin, setup, cos, draw, radians, noStroke, background
 source: https://processing.org/examples/pulses.html
 ---
 

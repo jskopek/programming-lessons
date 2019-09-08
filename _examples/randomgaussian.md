@@ -5,6 +5,7 @@ summary: Random Gaussian
 slug: randomgaussian
 difficulty: intermediate
 code: randomgaussian.pde
+functions: fill, randomGaussian, size, ellipse, setup, draw, noStroke, background
 source: https://processing.org/examples/randomgaussian.html
 ---
 

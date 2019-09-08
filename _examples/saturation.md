@@ -5,6 +5,7 @@ summary: Saturation
 slug: saturation
 difficulty: beginner
 code: saturation.pde
+functions: fill, size, rect, setup, colorMode, draw, noStroke
 source: https://processing.org/examples/saturation.html
 ---
 

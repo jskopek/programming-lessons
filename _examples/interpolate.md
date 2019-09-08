@@ -5,6 +5,7 @@ summary: Linear Interpolation
 slug: interpolate
 difficulty: intermediate
 code: interpolate.pde
+functions: fill, stroke, size, ellipse, setup, lerp, draw, noStroke, background
 source: https://processing.org/examples/interpolate.html
 ---
 

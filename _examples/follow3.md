@@ -5,6 +5,7 @@ summary: Follow 3 based on code from Keith Peters
 slug: follow3
 difficulty: intermediate
 code: follow3.pde
+functions: stroke, size, pushMatrix, sin, popMatrix, setup, strokeWeight, cos, rotate, translate, draw, for, segment, dragSegment, atan2, line, background
 source: https://processing.org/examples/follow3.html
 ---
 

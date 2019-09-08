@@ -5,6 +5,7 @@ summary: Arm
 slug: arm
 difficulty: intermediate
 code: arm.pde
+functions: stroke, size, pushMatrix, popMatrix, setup, strokeWeight, rotate, translate, draw, segment, float, line, background
 source: https://processing.org/examples/arm.html
 ---
 

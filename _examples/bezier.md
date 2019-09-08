@@ -5,6 +5,7 @@ summary: Bezier
 slug: bezier
 difficulty: intermediate
 code: bezier.pde
+functions: stroke, size, setup, bezier, noFill, draw, 240-, mouseX-, background
 source: https://processing.org/examples/bezier.html
 ---
 

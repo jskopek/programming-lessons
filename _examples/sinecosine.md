@@ -5,6 +5,7 @@ summary: Sine Cosine
 slug: sinecosine
 difficulty: advanced
 code: sinecosine.pde
+functions: fill, size, ellipse, sin, rectMode, rect, setup, cos, draw, radians, noStroke, background
 source: https://processing.org/examples/sinecosine.html
 ---
 

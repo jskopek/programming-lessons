@@ -5,6 +5,7 @@ summary: Logical Operators
 slug: logicaloperators
 difficulty: intermediate
 code: logicaloperators.pde
+functions: stroke, size, if, point, line, background
 source: https://processing.org/examples/logicaloperators.html
 ---
 

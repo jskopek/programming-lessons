@@ -5,6 +5,7 @@ summary: Mouse Functions
 slug: mousefunctions
 difficulty: beginner
 code: mousefunctions.pde
+functions: fill, stroke, size, if, mouseDragged, rectMode, rect, setup, mouseReleased, draw, mousePressed, background
 source: https://processing.org/examples/mousefunctions.html
 ---
 

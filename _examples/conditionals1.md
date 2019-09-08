@@ -5,6 +5,7 @@ summary: Conditionals 1
 slug: conditionals1
 difficulty: beginner
 code: conditionals1.pde
+functions: stroke, size, if, for, line, background
 source: https://processing.org/examples/conditionals1.html
 ---
 

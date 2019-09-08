@@ -5,6 +5,7 @@ summary: Integers Floats
 slug: integersfloats
 difficulty: beginner
 code: integersfloats.pde
+functions: stroke, size, if, setup, draw, line, background
 source: https://processing.org/examples/integersfloats.html
 ---
 

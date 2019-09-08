@@ -5,6 +5,7 @@ summary: Clock
 slug: clock
 difficulty: intermediate
 code: clock.pde
+functions: min, ellipse, radians, fill, size, cos, minute, line, stroke, vertex, sin, beginShape, setup, strokeWeight, draw, hour, endShape, background, map, norm, noStroke, second
 source: https://processing.org/examples/clock.html
 ---
 

@@ -5,6 +5,7 @@ summary: Follow 2 based on code from Keith Peters
 slug: follow2
 difficulty: intermediate
 code: follow2.pde
+functions: stroke, size, pushMatrix, sin, popMatrix, setup, strokeWeight, cos, rotate, translate, draw, segment, dragSegment, atan2, line, background
 source: https://processing.org/examples/follow2.html
 ---
 

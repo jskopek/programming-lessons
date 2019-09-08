@@ -5,6 +5,7 @@ summary: Width and Height
 slug: widthheight
 difficulty: beginner
 code: widthheight.pde
+functions: fill, size, rect, setup, draw, noStroke, background
 source: https://processing.org/examples/widthheight.html
 ---
 

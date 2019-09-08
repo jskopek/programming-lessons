@@ -5,6 +5,7 @@ summary: Linear Motion
 slug: linear
 difficulty: beginner
 code: linear.pde
+functions: stroke, size, setup, draw, line, background
 source: https://processing.org/examples/linear.html
 ---
 

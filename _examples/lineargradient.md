@@ -7,6 +7,7 @@ summary: Simple Linear Gradient
 slug: lineargradient
 difficulty: intermediate
 code: lineargradient.pde
+functions: stroke, size, lerpColor, setup, map, color, setGradient, noLoop, draw, noFill, line
 source: https://processing.org/examples/lineargradient.html
 ---
 

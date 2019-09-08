@@ -5,6 +5,7 @@ summary: Patterns
 slug: pattern
 difficulty: beginner
 code: pattern.pde
+functions: abs, stroke, size, ellipse, variableEllipse, setup, draw, background
 source: https://processing.org/examples/pattern.html
 ---
 

@@ -5,6 +5,7 @@ summary: Shape Primitives
 slug: shapeprimitives
 difficulty: beginner
 code: shapeprimitives.pde
+functions: fill, size, ellipse, rect, quad, triangle, noStroke, arc, background
 source: https://processing.org/examples/shapeprimitives.html
 ---
 
