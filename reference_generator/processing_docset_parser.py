@@ -140,16 +140,25 @@ for reference in references_list:
         reference.category = structure_dict[reference.slug]['category']
         reference.section = structure_dict[reference.slug]['section']
 
+
 # filters references against a whitelist (we only want to include a few references for now)
-BEGINNER_FUNCTIONS = ['rect', 'ellipse', 'triangle', 'line', 'point', 'fill', 'stroke', 'background', 'nofill', 'nostroke', 'strokeweight', 'strokejoin', 'strokecap', 'beginshape', 'size', 'width', 'height', 'fullscreen', 'setup', 'draw', 'println']
-INTERMEDIATE_FUNCTIONS = ['framerate', 'redraw', 'noloop', 'loop', 'colormode', 'rectmode', 'map', 'int', 'float', 'bool', 'char', 'norm', 'lerp', 'abs']
-WHITELIST = BEGINNER_FUNCTIONS + INTERMEDIATE_FUNCTIONS
+FUNCTIONS = {
+    'beginner': ['colorMode', 'mousePressed', 'mouseReleased', 'noFill', 'map', 'noLoop', 'overRect', 'background', 'translate', 'stroke', 'if', 'scale', 'ellipseMode', 'setup', 'arc', 'sqrt', 'abs', 'drawTarget', 'strokeWeight', 'draw', 'variableEllipse', 'update', 'keyPressed', 'ellipse', 'quad', 'line', 'sq', 'color', 'size', 'rect', 'fill', 'noStroke', 'millis', 'mouseDragged', 'for', 'strokeCap', 'overCircle', 'cos', 'frameRate', 'noSmooth', 'point', 'triangle', 'rectMode', 'dist'],
+    'intermediate': ['textSize', 'noise', 'norm', 'minute', 'constrain', 'lerp', 'pushMatrix', 'setGradient', 'hour', 'vertex', 'sin', 'length', 'segment', 'println', 'rotate', 'keyTyped', 'redraw', 'createFont', 'lerpColor', 'textFont', 'popMatrix', 'atan2', 'loop', 'PShape', 'endShape', 'int', 'display', 'text', 'bezier', 'min', 'random', 'dragSegment', 'second', 'pieChart', 'Eye', 'byte', 'randomGaussian', 'drawGradient', 'float', 'radians', 'beginShape', 'mouseX', 'mouseY'],
+    'advanced': ['textDescent', 'PVector', 'heading', 'beginDraw', 'star', 'polygon', 'add', 'random2D', 'collide', 'setMag', 'checkBoundaryCollision', 'start', 'calcWave', 'remove', 'grow', 'lock', 'textAlign', 'positionSegment', 'move', 'copy', 'createImage', 'textAscent', 'overEvent', 'createGraphics', 'reachSegment', 'checkCollision', 'updatePixels', 'pow', 'normalize', 'loadPixels', 'finished', 'endDraw', 'textWidth', 'drawCircle', 'mult', 'transmit', 'get', 'sub', 'image', 'pressEvent', 'limit', 'releaseEvent', 'max', 'super', 'bezierVertex', 'drawSpring', 'mag', 'wobble', 'updateSpring', 'renderWave'],
+    'expert': ['pressed', 'align', 'released', 'ceil', 'run', 'div', 'render', 'checkGroundCollision', 'dot', 'fromAngle', 'otherOver', 'borders', 'separate', 'Spring', 'checkWallCollision', 'flock', 'heading2D', 'seek', 'addBoid', 'applyForce', 'set', 'cohesion', 'createGround']
+}
+WHITELIST = sum(FUNCTIONS.values(), [])
+WHITELIST = [slugify(function_name) for function_name in WHITELIST]
+
+# endShape is weird
+
 references_list = [ref for ref in references_list if ref.slug in WHITELIST]
 for reference in references_list:
-    if reference.slug in BEGINNER_FUNCTIONS:
-        reference.difficulty = 'beginner'
-    elif reference.slug in INTERMEDIATE_FUNCTIONS:
-        reference.difficulty = 'intermediate'
+    for category, examples_by_cateogry in FUNCTIONS.items():
+        if reference.slug in examples_by_cateogry:
+            reference.difficulty = category
+            continue
 
 # generate the reference text and code
 for reference in references_list:
