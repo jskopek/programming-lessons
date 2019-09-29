@@ -34,7 +34,7 @@ So each light actually has two numbers - the column and the row. So, the number 
 
 ..is in the *3rd colummn from the left*, and the *2nd column from the top*.
 
-To do this, we give each light a number. Actually, we give it two - a number from the left, and a number from the top. To figure out the number for each light, we start from the top left side of the screen. The light at the top left 
+To do this, we give each light a number. Actually, we give it two - a number from the left, and a number from the top.
 
 We can also use the same numbers to tell the computer how wide or tall to make something. So, for example, you could say "**draw a rectangle that starts from the 3rd light on the left and the 5th light on the top, and make it 5 lights wide and 3 lights tall**".
 

@@ -17,8 +17,9 @@
             }, 1000);
 
             var textEl = document.createElement('textarea');
-            //textEl.style.display = 'none';
-            document.body.appendChild(textEl);
+            textEl.style.width = '1px';
+            textEl.style.height = '1px';
+            buttonEl.appendChild(textEl);
             textEl.value = code;
             textEl.select()
             document.execCommand('copy');
